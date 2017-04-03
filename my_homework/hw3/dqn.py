@@ -127,7 +127,17 @@ def learn(env,
     # Older versions of TensorFlow may require using "VARIABLES" instead of "GLOBAL_VARIABLES"
     ######
     
-    # YOUR CODE HERE
+    #MY CODE STARTS HERE
+    q_t=q_func(obs_t_float, num_actions, scope="q_func", reuse=False) #calculate Q_t
+    q_tp1=q_func(obs_tp1_float, num_actions, scope="target_q_func", reuse=False) #calculate Q_tp1 from target network
+    y_j=rew_t_ph+(1-done_mask_ph)*gamma*tf.reduce_max(q_tp1) #calculate y_j
+    total_error=tf.square(y_j-tf.reduce_max(q_t)) #error
+
+    #add collections
+    q_func_vars = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='q_func')
+    target_q_func_vars = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='target_q_func')
+    
+    #MY CODE ENDS HERE
 
     ######
 
@@ -184,7 +194,6 @@ def learn(env,
         # implementation in dqn_utils.py to see what functionality the replay
         # buffer exposes. The replay buffer has a function called
         # encode_recent_observation that will take the latest observation
-        # that you pushed into the buffer and compute the corresponding
         # input that should be given to a Q network by appending some
         # previous frames.
         # Don't forget to include epsilon greedy exploration!
@@ -193,9 +202,31 @@ def learn(env,
         # might as well be random, since you haven't trained your net...)
 
         #####
-        
-        # YOUR CODE HERE
+        #MY CODE STARTS HERE
+        if not model_initialized:
+            sess=tf.Session()
+            sess.run(tf.global_variables_initializer())
+            model_initialized=True
 
+        #register current state
+        idx=replay_buffer.store_frame(last_obs)
+        if np.random.random()<exploration.value(t):
+            #take random action
+            act=env.action_space.sample()    
+        else:
+            #get action from net
+            obs_for_net=[replay_buffer.encode_recent_observation()]
+            q_val=sess.run(q_t,feed_dict={obs_t_ph:obs_for_net})
+            act=np.argmax(q_val)
+        #step env according at action
+        nxt_obs, reward, done, _ = env.step(act)
+        replay_buffer.store_effect(idx, act, reward, done)    
+
+        if done:
+            last_obs = env.reset()
+        else:
+            last_obs=nxt_obs
+        #MY CODE ENDS HERE
         #####
 
         # at this point, the environment should have been advanced one step (and
@@ -244,10 +275,27 @@ def learn(env,
             # variable num_param_updates useful for this (it was initialized to 0)
             #####
             
-            # YOUR CODE HERE
+            #MY CODE STARTS HERE
+            lr=optimizer_spec.lr_schedule.value(t)
+            #3.a
+            print "start training"
+            if t%10000==0:
+                print "step",t
+            
+            obs_batch, act_batch, rew_batch, next_obs_batch, done_mask=replay_buffer.sample(batch_size)
 
+            #3.b
+            initialize_interdependent_variables(session, tf.global_variables(), {obs_t_ph: obs_batch, obs_tp1_ph: next_obs_batch})
+
+            #3.c
+            err,_=sess.run([total_error,train_fn],feed_dict={obs_t_ph:obs_batch,act_t_ph:act_batch,rew_t_ph:rew_batch,obs_tp1_ph:next_obs_batch,done_mask_ph:done_mask,learning_rate:lr})
+            num_param_updates+=1
+
+            #3.d
+            if num_param_updates%target_update_freq==0:
+                sess.run(update_target_fn)
+            #MY CODE ENDS HERE
             #####
-
         ### 4. Log progress
         episode_rewards = get_wrapper_by_name(env, "Monitor").get_episode_rewards()
         if len(episode_rewards) > 0:
