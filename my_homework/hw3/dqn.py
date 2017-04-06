@@ -278,21 +278,19 @@ def learn(env,
             #####
             
             #MY CODE STARTS HERE
-            LOG_EVERY_N_STEPS=1000
             lr=optimizer_spec.lr_schedule.value(t)
             #3.a
-            if t%50==0:
+            if t%1000==0:
                print ("Step: %d" % t)
             
             obs_batch, act_batch, rew_batch, next_obs_batch, done_mask=replay_buffer.sample(batch_size)
-
             #3.b
-            initialize_interdependent_variables(session, tf.global_variables(), {obs_t_ph: obs_batch, obs_tp1_ph: next_obs_batch})
-
+            #initialize_interdependent_variables(session, tf.global_variables(), {obs_t_ph: obs_batch, obs_tp1_ph: next_obs_batch})
+            #print "step 3.b duration: ", time.time()-start
+            #start=time.time()
             #3.c
             err,_=sess.run([total_error,train_fn],feed_dict={obs_t_ph:obs_batch,act_t_ph:act_batch,rew_t_ph:rew_batch,obs_tp1_ph:next_obs_batch,done_mask_ph:done_mask,learning_rate:lr})
             num_param_updates+=1
-
             #3.d
             if num_param_updates%target_update_freq==0:
                 sess.run(update_target_fn)

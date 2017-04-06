@@ -112,7 +112,8 @@ def get_env(seed):
 
 def main():
     # Run training
-    seed = 0 # Use a seed of zero (you may want to randomize the seed!)
+    #seed = 0 # Use a seed of zero (you may want to randomize the seed!)
+    seed=np.random.randint(1000)
     env = get_env(seed)
     session = get_session()
     atari_learn(env, session, num_timesteps=int(4e7))
