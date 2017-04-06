@@ -7,6 +7,7 @@ import tensorflow                as tf
 import tensorflow.contrib.layers as layers
 from collections import namedtuple
 from dqn_utils import *
+import time
 
 OptimizerSpec = namedtuple("OptimizerSpec", ["constructor", "kwargs", "lr_schedule"])
 
@@ -166,6 +167,7 @@ def learn(env,
     best_mean_episode_reward = -float('inf')
     last_obs = env.reset()
     LOG_EVERY_N_STEPS = 10000
+    start=time.time()
 
     for t in itertools.count():
         ### 1. Check stopping criterion
@@ -276,11 +278,11 @@ def learn(env,
             #####
             
             #MY CODE STARTS HERE
+            LOG_EVERY_N_STEPS=1000
             lr=optimizer_spec.lr_schedule.value(t)
             #3.a
-            print "start training"
-            if t%10000==0:
-                print "step",t
+            if t%50==0:
+               print ("Step: %d" % t)
             
             obs_batch, act_batch, rew_batch, next_obs_batch, done_mask=replay_buffer.sample(batch_size)
 
@@ -304,9 +306,12 @@ def learn(env,
             best_mean_episode_reward = max(best_mean_episode_reward, mean_episode_reward)
         if t % LOG_EVERY_N_STEPS == 0 and model_initialized:
             print("Timestep %d" % (t,))
+            t=(time.time()-start)/60
+            print("Duration %f" % t)
             print("mean reward (100 episodes) %f" % mean_episode_reward)
             print("best mean reward %f" % best_mean_episode_reward)
             print("episodes %d" % len(episode_rewards))
             print("exploration %f" % exploration.value(t))
             print("learning_rate %f" % optimizer_spec.lr_schedule.value(t))
+            start=time.time()
             sys.stdout.flush()
