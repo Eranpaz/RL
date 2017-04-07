@@ -131,8 +131,8 @@ def learn(env,
     #MY CODE STARTS HERE
     q_t=q_func(obs_t_float, num_actions, scope="q_func", reuse=False) #calculate Q_t
     q_tp1=q_func(obs_tp1_float, num_actions, scope="target_q_func", reuse=False) #calculate Q_tp1 from target network
-    y_j=rew_t_ph+(1-done_mask_ph)*gamma*tf.reduce_max(q_tp1) #calculate y_j
-    total_error=tf.square(y_j-tf.reduce_max(q_t)) #error
+    y_j=rew_t_ph+(1-done_mask_ph)*gamma*tf.reduce_max(q_tp1, axis=1) #calculate y_j
+    total_error=tf.reduce_mean(tf.square(y_j-tf.reduce_max(q_t, axis=1))) #error
 
     #add collections
     q_func_vars = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='q_func')
@@ -214,12 +214,15 @@ def learn(env,
         idx=replay_buffer.store_frame(last_obs)
         if np.random.random()<exploration.value(t):
             #take random action
-            act=env.action_space.sample()    
+            act=env.action_space.sample()
+            #print "random action:", str(act)
         else:
             #get action from net
             obs_for_net=[replay_buffer.encode_recent_observation()]
             q_val=sess.run(q_t,feed_dict={obs_t_ph:obs_for_net})
+            #print "q_val:",q_val
             act=np.argmax(q_val)
+            #print "max action:", str(act)
         #step env according at action
         nxt_obs, reward, done, _ = env.step(act)
         replay_buffer.store_effect(idx, act, reward, done)    
@@ -280,7 +283,7 @@ def learn(env,
             #MY CODE STARTS HERE
             lr=optimizer_spec.lr_schedule.value(t)
             #3.a
-            if t%1000==0:
+            if t%2000==0:
                print ("Step: %d" % t)
             
             obs_batch, act_batch, rew_batch, next_obs_batch, done_mask=replay_buffer.sample(batch_size)
@@ -289,7 +292,9 @@ def learn(env,
             #print "step 3.b duration: ", time.time()-start
             #start=time.time()
             #3.c
-            err,_=sess.run([total_error,train_fn],feed_dict={obs_t_ph:obs_batch,act_t_ph:act_batch,rew_t_ph:rew_batch,obs_tp1_ph:next_obs_batch,done_mask_ph:done_mask,learning_rate:lr})
+            err=sess.run(train_fn,feed_dict={obs_t_ph:obs_batch,act_t_ph:act_batch,rew_t_ph:rew_batch,obs_tp1_ph:next_obs_batch,done_mask_ph:done_mask,learning_rate:lr})
+            #if t%1000==0:
+                #print "error=",str(err)
             num_param_updates+=1
             #3.d
             if num_param_updates%target_update_freq==0:
