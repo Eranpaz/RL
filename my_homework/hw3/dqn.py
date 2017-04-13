@@ -133,7 +133,6 @@ def learn(env,
     q_tp1=q_func(obs_tp1_float, num_actions, scope="target_q_func", reuse=False) #calculate Q_tp1 from target network
     y_j=rew_t_ph+(1-done_mask_ph)*gamma*tf.reduce_max(q_tp1, axis=1) #calculate y_j
     total_error=tf.reduce_mean(tf.square(y_j-tf.reduce_max(q_t, axis=1))) #error
-
     #add collections
     q_func_vars = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='q_func')
     target_q_func_vars = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='target_q_func')
@@ -283,18 +282,19 @@ def learn(env,
             #MY CODE STARTS HERE
             lr=optimizer_spec.lr_schedule.value(t)
             #3.a
-            if t%2000==0:
-               print ("Step: %d" % t)
-            
             obs_batch, act_batch, rew_batch, next_obs_batch, done_mask=replay_buffer.sample(batch_size)
             #3.b
             #initialize_interdependent_variables(session, tf.global_variables(), {obs_t_ph: obs_batch, obs_tp1_ph: next_obs_batch})
             #print "step 3.b duration: ", time.time()-start
             #start=time.time()
             #3.c
-            err=sess.run(train_fn,feed_dict={obs_t_ph:obs_batch,act_t_ph:act_batch,rew_t_ph:rew_batch,obs_tp1_ph:next_obs_batch,done_mask_ph:done_mask,learning_rate:lr})
-            #if t%1000==0:
-                #print "error=",str(err)
+            tot_err,err=sess.run([total_error,train_fn],feed_dict={obs_t_ph:obs_batch,act_t_ph:act_batch,rew_t_ph:rew_batch,obs_tp1_ph:next_obs_batch,done_mask_ph:done_mask,learning_rate:lr})
+            #qt, qt1,yj,tot_err,err=sess.run([q_t,q_tp1,y_j,total_error,train_fn],feed_dict={obs_t_ph:obs_batch,act_t_ph:act_batch,rew_t_ph:rew_batch,obs_tp1_ph:next_obs_batch,done_mask_ph:done_mask,learning_rate:lr})
+            #print "qt",qt.shape
+            #print "qtp1",qt1.shape
+            #print "yj", yj.shape
+            if t%2000==0:
+                print ("timestep %d, total_error %f" %(t,tot_err))
             num_param_updates+=1
             #3.d
             if num_param_updates%target_update_freq==0:
