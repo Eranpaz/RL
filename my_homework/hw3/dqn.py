@@ -136,7 +136,7 @@ def learn(env,
     #add collections
     q_func_vars = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='q_func')
     target_q_func_vars = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='target_q_func')
-    
+    saver=tf.train.Saver()
     #MY CODE ENDS HERE
 
     ######
@@ -299,6 +299,7 @@ def learn(env,
             #3.d
             if num_param_updates%target_update_freq==0:
                 sess.run(update_target_fn)
+                print "updated target network"
             #MY CODE ENDS HERE
             #####
         ### 4. Log progress
@@ -318,3 +319,8 @@ def learn(env,
             print("learning_rate %f" % optimizer_spec.lr_schedule.value(t))
             start=time.time()
             sys.stdout.flush()
+        if t>0 and t % (LOG_EVERY_N_STEPS*5) == 0:
+            model_path=saver.save(sess,'ram',global_step=t)
+            print "saved snapshot:",str(model_path)
+            
+            
