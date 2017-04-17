@@ -130,9 +130,10 @@ def learn(env,
     
     #MY CODE STARTS HERE
     q_t=q_func(obs_t_float, num_actions, scope="q_func", reuse=False) #calculate Q_t
+    q_t_value=tf.reduce_sum(q_t*tf.one_hot(act_t_ph,num_actions),axis=1)
     q_tp1=q_func(obs_tp1_float, num_actions, scope="target_q_func", reuse=False) #calculate Q_tp1 from target network
     y_j=rew_t_ph+(1-done_mask_ph)*gamma*tf.reduce_max(q_tp1, axis=1) #calculate y_j
-    total_error=tf.reduce_mean(tf.square(y_j-tf.reduce_max(q_t, axis=1))) #error
+    total_error=tf.reduce_mean(tf.square(y_j-q_t_value)) #error
     #add collections
     q_func_vars = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='q_func')
     target_q_func_vars = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='target_q_func')
