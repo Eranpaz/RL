@@ -320,8 +320,8 @@ def learn(env,
             print("learning_rate %f" % optimizer_spec.lr_schedule.value(t))
             start=time.time()
             sys.stdout.flush()
-        if t>0 and t % (LOG_EVERY_N_STEPS*5) == 0:
-            model_path=saver.save(sess,'ram',global_step=t)
+        if t>0 and t % (LOG_EVERY_N_STEPS*10) == 0:
+            model_path=saver.save(sess,'atari',global_step=t)
             print "saved snapshot:",str(model_path)
             
             

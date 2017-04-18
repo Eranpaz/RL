@@ -1,0 +1,5047 @@
+('AVAILABLE GPUS: ', [u'device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0'])
+Timestep 0
+Duration 0.003888
+mean reward (100 episodes) nan
+best mean reward -inf
+episodes 0
+exploration 1.000000
+learning_rate 0.000100
+Timestep 10000
+Duration 0.347578
+mean reward (100 episodes) -20.000000
+best mean reward -inf
+episodes 10
+exploration 0.991000
+learning_rate 0.000100
+Timestep 20000
+Duration 0.274302
+mean reward (100 episodes) -20.142857
+best mean reward -inf
+episodes 21
+exploration 0.982000
+learning_rate 0.000100
+Timestep 30000
+Duration 0.295781
+mean reward (100 episodes) -20.250000
+best mean reward -inf
+episodes 32
+exploration 0.973000
+learning_rate 0.000100
+Timestep 40000
+Duration 0.278946
+mean reward (100 episodes) -20.279070
+best mean reward -inf
+episodes 43
+exploration 0.964000
+learning_rate 0.000100
+Timestep 50000
+Duration 0.281483
+mean reward (100 episodes) -20.148148
+best mean reward -inf
+episodes 54
+exploration 0.955000
+learning_rate 0.000100
+timestep 52000, total_error 0.000438
+timestep 54000, total_error 0.000462
+timestep 56000, total_error 0.001471
+timestep 58000, total_error 0.031751
+timestep 60000, total_error 0.002326
+Timestep 60000
+Duration 1.113133
+mean reward (100 episodes) -20.200000
+best mean reward -inf
+episodes 65
+exploration 0.946000
+learning_rate 0.000100
+timestep 62000, total_error 0.001131
+timestep 64000, total_error 0.000741
+timestep 66000, total_error 0.001412
+timestep 68000, total_error 0.020052
+timestep 70000, total_error 0.001539
+Timestep 70000
+Duration 1.150672
+mean reward (100 episodes) -20.202703
+best mean reward -inf
+episodes 74
+exploration 0.937000
+learning_rate 0.000100
+timestep 72000, total_error 0.000468
+timestep 74000, total_error 0.000148
+timestep 76000, total_error 0.000241
+timestep 78000, total_error 0.000405
+timestep 80000, total_error 0.023005
+Timestep 80000
+Duration 1.153087
+mean reward (100 episodes) -20.223529
+best mean reward -inf
+episodes 85
+exploration 0.928000
+learning_rate 0.000100
+timestep 82000, total_error 0.000186
+timestep 84000, total_error 0.000314
+timestep 86000, total_error 0.000263
+timestep 88000, total_error 0.000157
+timestep 90000, total_error 0.000344
+updated target network
+Timestep 90000
+Duration 1.155560
+mean reward (100 episodes) -20.278351
+best mean reward -inf
+episodes 97
+exploration 0.919000
+learning_rate 0.000100
+timestep 92000, total_error 0.000769
+timestep 94000, total_error 0.029091
+timestep 96000, total_error 0.000446
+timestep 98000, total_error 0.002126
+timestep 100000, total_error 0.007720
+Timestep 100000
+Duration 1.156801
+mean reward (100 episodes) -20.310000
+best mean reward -20.290000
+episodes 107
+exploration 0.910000
+learning_rate 0.000100
+saved snapshot: atari-100000
+timestep 102000, total_error 0.000088
+timestep 104000, total_error 0.000383
+timestep 106000, total_error 0.000100
+timestep 108000, total_error 0.000500
+timestep 110000, total_error 0.000981
+Timestep 110000
+Duration 1.162458
+mean reward (100 episodes) -20.330000
+best mean reward -20.290000
+episodes 118
+exploration 0.901000
+learning_rate 0.000100
+timestep 112000, total_error 0.000142
+timestep 114000, total_error 0.000068
+timestep 116000, total_error 0.000082
+timestep 118000, total_error 0.000230
+timestep 120000, total_error 0.000139
+Timestep 120000
+Duration 1.188105
+mean reward (100 episodes) -20.280000
+best mean reward -20.280000
+episodes 129
+exploration 0.892000
+learning_rate 0.000100
+timestep 122000, total_error 0.000402
+timestep 124000, total_error 0.000170
+timestep 126000, total_error 0.000453
+timestep 128000, total_error 0.000117
+timestep 130000, total_error 0.000055
+updated target network
+Timestep 130000
+Duration 1.164422
+mean reward (100 episodes) -20.300000
+best mean reward -20.270000
+episodes 140
+exploration 0.883000
+learning_rate 0.000100
+timestep 132000, total_error 0.000226
+timestep 134000, total_error 0.002156
+timestep 136000, total_error 0.000437
+timestep 138000, total_error 0.000170
+timestep 140000, total_error 0.000268
+Timestep 140000
+Duration 1.169069
+mean reward (100 episodes) -20.350000
+best mean reward -20.270000
+episodes 151
+exploration 0.874000
+learning_rate 0.000100
+timestep 142000, total_error 0.000553
+timestep 144000, total_error 0.000158
+timestep 146000, total_error 0.000185
+timestep 148000, total_error 0.017130
+timestep 150000, total_error 0.000542
+Timestep 150000
+Duration 1.170914
+mean reward (100 episodes) -20.380000
+best mean reward -20.270000
+episodes 162
+exploration 0.865000
+learning_rate 0.000100
+timestep 152000, total_error 0.000241
+timestep 154000, total_error 0.000180
+timestep 156000, total_error 0.000403
+timestep 158000, total_error 0.000086
+timestep 160000, total_error 0.000100
+Timestep 160000
+Duration 1.170728
+mean reward (100 episodes) -20.360000
+best mean reward -20.270000
+episodes 172
+exploration 0.856000
+learning_rate 0.000100
+timestep 162000, total_error 0.000170
+timestep 164000, total_error 0.023318
+timestep 166000, total_error 0.006210
+timestep 168000, total_error 0.000111
+timestep 170000, total_error 0.000085
+updated target network
+Timestep 170000
+Duration 1.174871
+mean reward (100 episodes) -20.370000
+best mean reward -20.270000
+episodes 183
+exploration 0.847000
+learning_rate 0.000100
+timestep 172000, total_error 0.000461
+timestep 174000, total_error 0.000240
+timestep 176000, total_error 0.000477
+timestep 178000, total_error 0.000271
+timestep 180000, total_error 0.000360
+Timestep 180000
+Duration 1.176799
+mean reward (100 episodes) -20.350000
+best mean reward -20.270000
+episodes 194
+exploration 0.838000
+learning_rate 0.000100
+timestep 182000, total_error 0.000197
+timestep 184000, total_error 0.001105
+timestep 186000, total_error 0.001856
+timestep 188000, total_error 0.000361
+timestep 190000, total_error 0.000155
+Timestep 190000
+Duration 1.179890
+mean reward (100 episodes) -20.330000
+best mean reward -20.270000
+episodes 205
+exploration 0.829000
+learning_rate 0.000100
+timestep 192000, total_error 0.001032
+timestep 194000, total_error 0.000135
+timestep 196000, total_error 0.000239
+timestep 198000, total_error 0.003455
+timestep 200000, total_error 0.000143
+Timestep 200000
+Duration 1.207868
+mean reward (100 episodes) -20.320000
+best mean reward -20.270000
+episodes 216
+exploration 0.820000
+learning_rate 0.000100
+saved snapshot: atari-200000
+timestep 202000, total_error 0.000457
+timestep 204000, total_error 0.000619
+timestep 206000, total_error 0.000445
+timestep 208000, total_error 0.000476
+timestep 210000, total_error 0.019131
+updated target network
+Timestep 210000
+Duration 1.196131
+mean reward (100 episodes) -20.300000
+best mean reward -20.270000
+episodes 227
+exploration 0.811000
+learning_rate 0.000100
+timestep 212000, total_error 0.011786
+timestep 214000, total_error 0.001530
+timestep 216000, total_error 0.000456
+timestep 218000, total_error 0.001759
+timestep 220000, total_error 0.001349
+Timestep 220000
+Duration 1.186097
+mean reward (100 episodes) -20.280000
+best mean reward -20.270000
+episodes 238
+exploration 0.802000
+learning_rate 0.000100
+timestep 222000, total_error 0.000604
+timestep 224000, total_error 0.000909
+timestep 226000, total_error 0.002600
+timestep 228000, total_error 0.000342
+timestep 230000, total_error 0.001119
+Timestep 230000
+Duration 1.189098
+mean reward (100 episodes) -20.290000
+best mean reward -20.260000
+episodes 249
+exploration 0.793000
+learning_rate 0.000100
+timestep 232000, total_error 0.000741
+timestep 234000, total_error 0.000675
+timestep 236000, total_error 0.000553
+timestep 238000, total_error 0.000754
+timestep 240000, total_error 0.000352
+Timestep 240000
+Duration 1.191663
+mean reward (100 episodes) -20.190000
+best mean reward -20.190000
+episodes 259
+exploration 0.784000
+learning_rate 0.000100
+timestep 242000, total_error 0.001251
+timestep 244000, total_error 0.001875
+timestep 246000, total_error 0.002004
+timestep 248000, total_error 0.000313
+timestep 250000, total_error 0.000304
+updated target network
+Timestep 250000
+Duration 1.190954
+mean reward (100 episodes) -20.190000
+best mean reward -20.170000
+episodes 270
+exploration 0.775000
+learning_rate 0.000100
+timestep 252000, total_error 0.001179
+timestep 254000, total_error 0.030182
+timestep 256000, total_error 0.002039
+timestep 258000, total_error 0.007289
+timestep 260000, total_error 0.000840
+Timestep 260000
+Duration 1.192791
+mean reward (100 episodes) -20.200000
+best mean reward -20.170000
+episodes 280
+exploration 0.766000
+learning_rate 0.000100
+timestep 262000, total_error 0.000477
+timestep 264000, total_error 0.000351
+timestep 266000, total_error 0.007023
+timestep 268000, total_error 0.000958
+timestep 270000, total_error 0.000251
+Timestep 270000
+Duration 1.196455
+mean reward (100 episodes) -20.090000
+best mean reward -20.090000
+episodes 290
+exploration 0.757000
+learning_rate 0.000100
+timestep 272000, total_error 0.000355
+timestep 274000, total_error 0.008072
+timestep 276000, total_error 0.000824
+timestep 278000, total_error 0.001041
+timestep 280000, total_error 0.003678
+Timestep 280000
+Duration 1.205662
+mean reward (100 episodes) -20.080000
+best mean reward -20.070000
+episodes 300
+exploration 0.748000
+learning_rate 0.000100
+timestep 282000, total_error 0.001691
+timestep 284000, total_error 0.001544
+timestep 286000, total_error 0.000378
+timestep 288000, total_error 0.005385
+timestep 290000, total_error 0.000591
+updated target network
+Timestep 290000
+Duration 1.201584
+mean reward (100 episodes) -20.070000
+best mean reward -20.070000
+episodes 311
+exploration 0.739000
+learning_rate 0.000100
+timestep 292000, total_error 0.017147
+timestep 294000, total_error 0.000561
+timestep 296000, total_error 0.002390
+timestep 298000, total_error 0.000754
+timestep 300000, total_error 0.000684
+Timestep 300000
+Duration 1.204966
+mean reward (100 episodes) -20.090000
+best mean reward -20.070000
+episodes 321
+exploration 0.730000
+learning_rate 0.000100
+saved snapshot: atari-300000
+timestep 302000, total_error 0.004218
+timestep 304000, total_error 0.002724
+timestep 306000, total_error 0.002129
+timestep 308000, total_error 0.000512
+timestep 310000, total_error 0.001302
+Timestep 310000
+Duration 1.211422
+mean reward (100 episodes) -20.090000
+best mean reward -20.030000
+episodes 331
+exploration 0.721000
+learning_rate 0.000100
+timestep 312000, total_error 0.012835
+timestep 314000, total_error 0.001491
+timestep 316000, total_error 0.000572
+timestep 318000, total_error 0.000412
+timestep 320000, total_error 0.001836
+Timestep 320000
+Duration 1.211200
+mean reward (100 episodes) -20.080000
+best mean reward -20.030000
+episodes 341
+exploration 0.712000
+learning_rate 0.000100
+timestep 322000, total_error 0.001006
+timestep 324000, total_error 0.001175
+timestep 326000, total_error 0.001006
+timestep 328000, total_error 0.000845
+timestep 330000, total_error 0.000532
+updated target network
+Timestep 330000
+Duration 1.240341
+mean reward (100 episodes) -20.100000
+best mean reward -20.030000
+episodes 351
+exploration 0.703000
+learning_rate 0.000100
+timestep 332000, total_error 0.004660
+timestep 334000, total_error 0.001643
+timestep 336000, total_error 0.001839
+timestep 338000, total_error 0.003814
+timestep 340000, total_error 0.002430
+Timestep 340000
+Duration 1.214065
+mean reward (100 episodes) -20.200000
+best mean reward -20.030000
+episodes 362
+exploration 0.694000
+learning_rate 0.000100
+timestep 342000, total_error 0.004488
+timestep 344000, total_error 0.001862
+timestep 346000, total_error 0.000486
+timestep 348000, total_error 0.002902
+timestep 350000, total_error 0.000270
+Timestep 350000
+Duration 1.216040
+mean reward (100 episodes) -20.180000
+best mean reward -20.030000
+episodes 372
+exploration 0.685000
+learning_rate 0.000100
+timestep 352000, total_error 0.000237
+timestep 354000, total_error 0.000517
+timestep 356000, total_error 0.003313
+timestep 358000, total_error 0.000588
+timestep 360000, total_error 0.004079
+Timestep 360000
+Duration 1.219432
+mean reward (100 episodes) -20.130000
+best mean reward -20.030000
+episodes 381
+exploration 0.676000
+learning_rate 0.000100
+timestep 362000, total_error 0.013884
+timestep 364000, total_error 0.000435
+timestep 366000, total_error 0.002221
+timestep 368000, total_error 0.000801
+timestep 370000, total_error 0.000524
+updated target network
+Timestep 370000
+Duration 1.219715
+mean reward (100 episodes) -20.160000
+best mean reward -20.030000
+episodes 391
+exploration 0.667000
+learning_rate 0.000100
+timestep 372000, total_error 0.001568
+timestep 374000, total_error 0.004336
+timestep 376000, total_error 0.001370
+timestep 378000, total_error 0.000608
+timestep 380000, total_error 0.001121
+Timestep 380000
+Duration 1.222712
+mean reward (100 episodes) -20.140000
+best mean reward -20.030000
+episodes 401
+exploration 0.658000
+learning_rate 0.000100
+timestep 382000, total_error 0.001186
+timestep 384000, total_error 0.001385
+timestep 386000, total_error 0.002962
+timestep 388000, total_error 0.011966
+timestep 390000, total_error 0.015205
+Timestep 390000
+Duration 1.225787
+mean reward (100 episodes) -20.150000
+best mean reward -20.030000
+episodes 411
+exploration 0.649000
+learning_rate 0.000100
+timestep 392000, total_error 0.009025
+timestep 394000, total_error 0.000504
+timestep 396000, total_error 0.001063
+timestep 398000, total_error 0.005324
+timestep 400000, total_error 0.000670
+Timestep 400000
+Duration 1.227942
+mean reward (100 episodes) -20.030000
+best mean reward -20.030000
+episodes 420
+exploration 0.640000
+learning_rate 0.000100
+saved snapshot: atari-400000
+timestep 402000, total_error 0.001383
+timestep 404000, total_error 0.000378
+timestep 406000, total_error 0.003073
+timestep 408000, total_error 0.006507
+timestep 410000, total_error 0.010684
+updated target network
+Timestep 410000
+Duration 1.232948
+mean reward (100 episodes) -20.020000
+best mean reward -20.020000
+episodes 429
+exploration 0.631000
+learning_rate 0.000100
+timestep 412000, total_error 0.003725
+timestep 414000, total_error 0.001995
+timestep 416000, total_error 0.010928
+timestep 418000, total_error 0.001228
+timestep 420000, total_error 0.006500
+Timestep 420000
+Duration 1.231962
+mean reward (100 episodes) -20.010000
+best mean reward -20.000000
+episodes 439
+exploration 0.622000
+learning_rate 0.000100
+timestep 422000, total_error 0.000577
+timestep 424000, total_error 0.002582
+timestep 426000, total_error 0.001510
+timestep 428000, total_error 0.002668
+timestep 430000, total_error 0.002484
+Timestep 430000
+Duration 1.235750
+mean reward (100 episodes) -19.940000
+best mean reward -19.940000
+episodes 448
+exploration 0.613000
+learning_rate 0.000100
+timestep 432000, total_error 0.001132
+timestep 434000, total_error 0.001612
+timestep 436000, total_error 0.004399
+timestep 438000, total_error 0.002016
+timestep 440000, total_error 0.002515
+Timestep 440000
+Duration 1.235806
+mean reward (100 episodes) -19.840000
+best mean reward -19.840000
+episodes 457
+exploration 0.604000
+learning_rate 0.000100
+timestep 442000, total_error 0.001112
+timestep 444000, total_error 0.004091
+timestep 446000, total_error 0.000708
+timestep 448000, total_error 0.002089
+timestep 450000, total_error 0.000866
+updated target network
+Timestep 450000
+Duration 1.240090
+mean reward (100 episodes) -19.830000
+best mean reward -19.820000
+episodes 466
+exploration 0.595000
+learning_rate 0.000100
+timestep 452000, total_error 0.002244
+timestep 454000, total_error 0.000554
+timestep 456000, total_error 0.010991
+timestep 458000, total_error 0.001740
+timestep 460000, total_error 0.001017
+Timestep 460000
+Duration 1.242105
+mean reward (100 episodes) -19.890000
+best mean reward -19.820000
+episodes 475
+exploration 0.586000
+learning_rate 0.000100
+timestep 462000, total_error 0.001326
+timestep 464000, total_error 0.000576
+timestep 466000, total_error 0.000953
+timestep 468000, total_error 0.001278
+timestep 470000, total_error 0.002112
+Timestep 470000
+Duration 1.244788
+mean reward (100 episodes) -19.920000
+best mean reward -19.820000
+episodes 485
+exploration 0.577000
+learning_rate 0.000100
+timestep 472000, total_error 0.002026
+timestep 474000, total_error 0.003661
+timestep 476000, total_error 0.002403
+timestep 478000, total_error 0.001033
+timestep 480000, total_error 0.001017
+Timestep 480000
+Duration 1.246788
+mean reward (100 episodes) -19.880000
+best mean reward -19.820000
+episodes 493
+exploration 0.568000
+learning_rate 0.000100
+timestep 482000, total_error 0.008571
+timestep 484000, total_error 0.000832
+timestep 486000, total_error 0.001045
+timestep 488000, total_error 0.003551
+timestep 490000, total_error 0.000458
+updated target network
+Timestep 490000
+Duration 1.250382
+mean reward (100 episodes) -19.880000
+best mean reward -19.820000
+episodes 501
+exploration 0.559000
+learning_rate 0.000100
+timestep 492000, total_error 0.002462
+timestep 494000, total_error 0.005489
+timestep 496000, total_error 0.005700
+timestep 498000, total_error 0.003374
+timestep 500000, total_error 0.003721
+Timestep 500000
+Duration 1.251410
+mean reward (100 episodes) -19.790000
+best mean reward -19.790000
+episodes 509
+exploration 0.550000
+learning_rate 0.000100
+saved snapshot: atari-500000
+timestep 502000, total_error 0.001279
+timestep 504000, total_error 0.002032
+timestep 506000, total_error 0.004710
+timestep 508000, total_error 0.001747
+timestep 510000, total_error 0.001148
+Timestep 510000
+Duration 1.294376
+mean reward (100 episodes) -19.790000
+best mean reward -19.750000
+episodes 518
+exploration 0.541000
+learning_rate 0.000100
+timestep 512000, total_error 0.001747
+timestep 514000, total_error 0.009017
+timestep 516000, total_error 0.000470
+timestep 518000, total_error 0.002237
+timestep 520000, total_error 0.001405
+Timestep 520000
+Duration 1.255085
+mean reward (100 episodes) -19.840000
+best mean reward -19.750000
+episodes 526
+exploration 0.532000
+learning_rate 0.000100
+timestep 522000, total_error 0.000786
+timestep 524000, total_error 0.001116
+timestep 526000, total_error 0.001257
+timestep 528000, total_error 0.000712
+timestep 530000, total_error 0.000983
+updated target network
+Timestep 530000
+Duration 1.260170
+mean reward (100 episodes) -19.800000
+best mean reward -19.750000
+episodes 535
+exploration 0.523000
+learning_rate 0.000100
+timestep 532000, total_error 0.001987
+timestep 534000, total_error 0.001693
+timestep 536000, total_error 0.001313
+timestep 538000, total_error 0.001948
+timestep 540000, total_error 0.003351
+Timestep 540000
+Duration 1.257433
+mean reward (100 episodes) -19.730000
+best mean reward -19.720000
+episodes 542
+exploration 0.514000
+learning_rate 0.000100
+timestep 542000, total_error 0.005091
+timestep 544000, total_error 0.001147
+timestep 546000, total_error 0.001490
+timestep 548000, total_error 0.007924
+timestep 550000, total_error 0.001843
+Timestep 550000
+Duration 1.260027
+mean reward (100 episodes) -19.690000
+best mean reward -19.690000
+episodes 550
+exploration 0.505000
+learning_rate 0.000100
+timestep 552000, total_error 0.001506
+timestep 554000, total_error 0.000701
+timestep 556000, total_error 0.005105
+timestep 558000, total_error 0.001422
+timestep 560000, total_error 0.001296
+Timestep 560000
+Duration 1.262146
+mean reward (100 episodes) -19.630000
+best mean reward -19.630000
+episodes 557
+exploration 0.496000
+learning_rate 0.000100
+timestep 562000, total_error 0.005213
+timestep 564000, total_error 0.002464
+timestep 566000, total_error 0.000629
+timestep 568000, total_error 0.001521
+timestep 570000, total_error 0.000851
+updated target network
+Timestep 570000
+Duration 1.266758
+mean reward (100 episodes) -19.570000
+best mean reward -19.570000
+episodes 565
+exploration 0.487000
+learning_rate 0.000100
+timestep 572000, total_error 0.001795
+timestep 574000, total_error 0.004152
+timestep 576000, total_error 0.001661
+timestep 578000, total_error 0.000929
+timestep 580000, total_error 0.005160
+Timestep 580000
+Duration 1.268247
+mean reward (100 episodes) -19.420000
+best mean reward -19.420000
+episodes 571
+exploration 0.478000
+learning_rate 0.000100
+timestep 582000, total_error 0.010025
+timestep 584000, total_error 0.007319
+timestep 586000, total_error 0.001904
+timestep 588000, total_error 0.001925
+timestep 590000, total_error 0.002210
+Timestep 590000
+Duration 1.272027
+mean reward (100 episodes) -19.320000
+best mean reward -19.320000
+episodes 578
+exploration 0.469000
+learning_rate 0.000100
+timestep 592000, total_error 0.001879
+timestep 594000, total_error 0.000970
+timestep 596000, total_error 0.002323
+timestep 598000, total_error 0.002225
+timestep 600000, total_error 0.001269
+Timestep 600000
+Duration 1.274079
+mean reward (100 episodes) -19.200000
+best mean reward -19.200000
+episodes 585
+exploration 0.460000
+learning_rate 0.000100
+saved snapshot: atari-600000
+timestep 602000, total_error 0.002490
+timestep 604000, total_error 0.001848
+timestep 606000, total_error 0.002668
+timestep 608000, total_error 0.003113
+timestep 610000, total_error 0.001324
+updated target network
+Timestep 610000
+Duration 1.274735
+mean reward (100 episodes) -19.070000
+best mean reward -19.070000
+episodes 591
+exploration 0.451000
+learning_rate 0.000100
+timestep 612000, total_error 0.001268
+timestep 614000, total_error 0.011524
+timestep 616000, total_error 0.001231
+timestep 618000, total_error 0.000940
+timestep 620000, total_error 0.002751
+Timestep 620000
+Duration 1.277299
+mean reward (100 episodes) -18.890000
+best mean reward -18.890000
+episodes 597
+exploration 0.442000
+learning_rate 0.000100
+timestep 622000, total_error 0.001776
+timestep 624000, total_error 0.002067
+timestep 626000, total_error 0.002877
+timestep 628000, total_error 0.003744
+timestep 630000, total_error 0.010692
+Timestep 630000
+Duration 1.279157
+mean reward (100 episodes) -18.790000
+best mean reward -18.790000
+episodes 603
+exploration 0.433000
+learning_rate 0.000100
+timestep 632000, total_error 0.011919
+timestep 634000, total_error 0.006271
+timestep 636000, total_error 0.001968
+timestep 638000, total_error 0.002602
+timestep 640000, total_error 0.001585
+Timestep 640000
+Duration 1.280149
+mean reward (100 episodes) -18.700000
+best mean reward -18.700000
+episodes 608
+exploration 0.424000
+learning_rate 0.000100
+timestep 642000, total_error 0.000852
+timestep 644000, total_error 0.000948
+timestep 646000, total_error 0.004744
+timestep 648000, total_error 0.006993
+timestep 650000, total_error 0.001891
+updated target network
+Timestep 650000
+Duration 1.284070
+mean reward (100 episodes) -18.710000
+best mean reward -18.650000
+episodes 614
+exploration 0.415000
+learning_rate 0.000100
+timestep 652000, total_error 0.001566
+timestep 654000, total_error 0.004639
+timestep 656000, total_error 0.018287
+timestep 658000, total_error 0.000742
+timestep 660000, total_error 0.001141
+Timestep 660000
+Duration 1.284714
+mean reward (100 episodes) -18.560000
+best mean reward -18.560000
+episodes 619
+exploration 0.406000
+learning_rate 0.000100
+timestep 662000, total_error 0.002258
+timestep 664000, total_error 0.007239
+timestep 666000, total_error 0.002183
+timestep 668000, total_error 0.001082
+timestep 670000, total_error 0.023553
+Timestep 670000
+Duration 1.287988
+mean reward (100 episodes) -18.340000
+best mean reward -18.340000
+episodes 624
+exploration 0.397000
+learning_rate 0.000100
+timestep 672000, total_error 0.000864
+timestep 674000, total_error 0.005839
+timestep 676000, total_error 0.003040
+timestep 678000, total_error 0.011893
+timestep 680000, total_error 0.002338
+Timestep 680000
+Duration 1.286686
+mean reward (100 episodes) -18.270000
+best mean reward -18.270000
+episodes 630
+exploration 0.388000
+learning_rate 0.000100
+timestep 682000, total_error 0.006861
+timestep 684000, total_error 0.004187
+timestep 686000, total_error 0.000815
+timestep 688000, total_error 0.002570
+timestep 690000, total_error 0.003231
+updated target network
+Timestep 690000
+Duration 1.291294
+mean reward (100 episodes) -18.120000
+best mean reward -18.120000
+episodes 635
+exploration 0.379000
+learning_rate 0.000100
+timestep 692000, total_error 0.001526
+timestep 694000, total_error 0.012776
+timestep 696000, total_error 0.002001
+timestep 698000, total_error 0.003478
+timestep 700000, total_error 0.001456
+Timestep 700000
+Duration 1.290966
+mean reward (100 episodes) -17.990000
+best mean reward -17.990000
+episodes 640
+exploration 0.370000
+learning_rate 0.000100
+saved snapshot: atari-700000
+timestep 702000, total_error 0.002039
+timestep 704000, total_error 0.004893
+timestep 706000, total_error 0.009840
+timestep 708000, total_error 0.001090
+timestep 710000, total_error 0.003588
+Timestep 710000
+Duration 1.297038
+mean reward (100 episodes) -17.850000
+best mean reward -17.850000
+episodes 645
+exploration 0.361000
+learning_rate 0.000100
+timestep 712000, total_error 0.001703
+timestep 714000, total_error 0.004561
+timestep 716000, total_error 0.005644
+timestep 718000, total_error 0.002989
+timestep 720000, total_error 0.002827
+Timestep 720000
+Duration 1.295493
+mean reward (100 episodes) -17.620000
+best mean reward -17.620000
+episodes 649
+exploration 0.352000
+learning_rate 0.000100
+timestep 722000, total_error 0.002225
+timestep 724000, total_error 0.003623
+timestep 726000, total_error 0.004295
+timestep 728000, total_error 0.011357
+timestep 730000, total_error 0.001655
+updated target network
+Timestep 730000
+Duration 1.296396
+mean reward (100 episodes) -17.540000
+best mean reward -17.540000
+episodes 654
+exploration 0.343000
+learning_rate 0.000100
+timestep 732000, total_error 0.006982
+timestep 734000, total_error 0.003550
+timestep 736000, total_error 0.001577
+timestep 738000, total_error 0.002720
+timestep 740000, total_error 0.002202
+Timestep 740000
+Duration 1.299092
+mean reward (100 episodes) -17.420000
+best mean reward -17.420000
+episodes 659
+exploration 0.334000
+learning_rate 0.000100
+timestep 742000, total_error 0.001466
+timestep 744000, total_error 0.003859
+timestep 746000, total_error 0.003971
+timestep 748000, total_error 0.004278
+timestep 750000, total_error 0.002412
+Timestep 750000
+Duration 1.299801
+mean reward (100 episodes) -17.240000
+best mean reward -17.240000
+episodes 664
+exploration 0.325000
+learning_rate 0.000100
+timestep 752000, total_error 0.004339
+timestep 754000, total_error 0.001161
+timestep 756000, total_error 0.001536
+timestep 758000, total_error 0.001970
+timestep 760000, total_error 0.002015
+Timestep 760000
+Duration 1.302271
+mean reward (100 episodes) -17.200000
+best mean reward -17.150000
+episodes 669
+exploration 0.316000
+learning_rate 0.000100
+timestep 762000, total_error 0.018330
+timestep 764000, total_error 0.002762
+timestep 766000, total_error 0.002619
+timestep 768000, total_error 0.001995
+timestep 770000, total_error 0.007872
+updated target network
+Timestep 770000
+Duration 1.304818
+mean reward (100 episodes) -17.100000
+best mean reward -17.100000
+episodes 673
+exploration 0.307000
+learning_rate 0.000100
+timestep 772000, total_error 0.004207
+timestep 774000, total_error 0.002961
+timestep 776000, total_error 0.010115
+timestep 778000, total_error 0.005398
+timestep 780000, total_error 0.004930
+Timestep 780000
+Duration 1.306122
+mean reward (100 episodes) -16.920000
+best mean reward -16.920000
+episodes 677
+exploration 0.298000
+learning_rate 0.000100
+timestep 782000, total_error 0.002655
+timestep 784000, total_error 0.002156
+timestep 786000, total_error 0.001441
+timestep 788000, total_error 0.005321
+timestep 790000, total_error 0.001710
+Timestep 790000
+Duration 1.309698
+mean reward (100 episodes) -16.790000
+best mean reward -16.790000
+episodes 682
+exploration 0.289000
+learning_rate 0.000100
+timestep 792000, total_error 0.000963
+timestep 794000, total_error 0.011537
+timestep 796000, total_error 0.005646
+timestep 798000, total_error 0.003929
+timestep 800000, total_error 0.005904
+Timestep 800000
+Duration 1.312019
+mean reward (100 episodes) -16.690000
+best mean reward -16.690000
+episodes 688
+exploration 0.280000
+learning_rate 0.000100
+saved snapshot: atari-800000
+timestep 802000, total_error 0.003122
+timestep 804000, total_error 0.001842
+timestep 806000, total_error 0.003284
+timestep 808000, total_error 0.001925
+timestep 810000, total_error 0.003448
+updated target network
+Timestep 810000
+Duration 1.317437
+mean reward (100 episodes) -16.580000
+best mean reward -16.580000
+episodes 692
+exploration 0.271000
+learning_rate 0.000100
+timestep 812000, total_error 0.016747
+timestep 814000, total_error 0.010430
+timestep 816000, total_error 0.002280
+timestep 818000, total_error 0.012256
+timestep 820000, total_error 0.017414
+Timestep 820000
+Duration 1.317204
+mean reward (100 episodes) -16.600000
+best mean reward -16.530000
+episodes 697
+exploration 0.262000
+learning_rate 0.000100
+timestep 822000, total_error 0.018898
+timestep 824000, total_error 0.006006
+timestep 826000, total_error 0.002871
+timestep 828000, total_error 0.008312
+timestep 830000, total_error 0.002808
+Timestep 830000
+Duration 1.318317
+mean reward (100 episodes) -16.610000
+best mean reward -16.530000
+episodes 701
+exploration 0.253000
+learning_rate 0.000100
+timestep 832000, total_error 0.015373
+timestep 834000, total_error 0.024802
+timestep 836000, total_error 0.002625
+timestep 838000, total_error 0.003333
+timestep 840000, total_error 0.006249
+Timestep 840000
+Duration 1.323114
+mean reward (100 episodes) -16.470000
+best mean reward -16.470000
+episodes 706
+exploration 0.244000
+learning_rate 0.000100
+timestep 842000, total_error 0.017706
+timestep 844000, total_error 0.002187
+timestep 846000, total_error 0.002302
+timestep 848000, total_error 0.006925
+timestep 850000, total_error 0.002644
+updated target network
+Timestep 850000
+Duration 1.329227
+mean reward (100 episodes) -16.350000
+best mean reward -16.350000
+episodes 710
+exploration 0.235000
+learning_rate 0.000100
+timestep 852000, total_error 0.008129
+timestep 854000, total_error 0.002359
+timestep 856000, total_error 0.001283
+timestep 858000, total_error 0.001800
+timestep 860000, total_error 0.004016
+Timestep 860000
+Duration 1.326062
+mean reward (100 episodes) -16.180000
+best mean reward -16.180000
+episodes 714
+exploration 0.226000
+learning_rate 0.000100
+timestep 862000, total_error 0.001663
+timestep 864000, total_error 0.005388
+timestep 866000, total_error 0.002704
+timestep 868000, total_error 0.003739
+timestep 870000, total_error 0.014342
+Timestep 870000
+Duration 1.326500
+mean reward (100 episodes) -16.110000
+best mean reward -16.110000
+episodes 717
+exploration 0.217000
+learning_rate 0.000100
+timestep 872000, total_error 0.009613
+timestep 874000, total_error 0.005481
+timestep 876000, total_error 0.001993
+timestep 878000, total_error 0.005325
+timestep 880000, total_error 0.008071
+Timestep 880000
+Duration 1.326350
+mean reward (100 episodes) -16.050000
+best mean reward -16.050000
+episodes 721
+exploration 0.208000
+learning_rate 0.000100
+timestep 882000, total_error 0.009321
+timestep 884000, total_error 0.008500
+timestep 886000, total_error 0.002929
+timestep 888000, total_error 0.007176
+timestep 890000, total_error 0.008744
+updated target network
+Timestep 890000
+Duration 1.337562
+mean reward (100 episodes) -15.920000
+best mean reward -15.920000
+episodes 725
+exploration 0.199000
+learning_rate 0.000100
+timestep 892000, total_error 0.002787
+timestep 894000, total_error 0.002072
+timestep 896000, total_error 0.005891
+timestep 898000, total_error 0.002845
+timestep 900000, total_error 0.016482
+Timestep 900000
+Duration 1.374068
+mean reward (100 episodes) -15.750000
+best mean reward -15.750000
+episodes 729
+exploration 0.190000
+learning_rate 0.000100
+saved snapshot: atari-900000
+timestep 902000, total_error 0.011185
+timestep 904000, total_error 0.002206
+timestep 906000, total_error 0.001863
+timestep 908000, total_error 0.001819
+timestep 910000, total_error 0.001408
+Timestep 910000
+Duration 1.370414
+mean reward (100 episodes) -15.570000
+best mean reward -15.560000
+episodes 733
+exploration 0.181000
+learning_rate 0.000100
+timestep 912000, total_error 0.006466
+timestep 914000, total_error 0.002668
+timestep 916000, total_error 0.010014
+timestep 918000, total_error 0.002043
+timestep 920000, total_error 0.016921
+Timestep 920000
+Duration 1.339329
+mean reward (100 episodes) -15.450000
+best mean reward -15.450000
+episodes 736
+exploration 0.172000
+learning_rate 0.000100
+timestep 922000, total_error 0.009820
+timestep 924000, total_error 0.013058
+timestep 926000, total_error 0.004460
+timestep 928000, total_error 0.003230
+timestep 930000, total_error 0.005883
+updated target network
+Timestep 930000
+Duration 1.339125
+mean reward (100 episodes) -15.270000
+best mean reward -15.270000
+episodes 740
+exploration 0.163000
+learning_rate 0.000100
+timestep 932000, total_error 0.013000
+timestep 934000, total_error 0.001388
+timestep 936000, total_error 0.013294
+timestep 938000, total_error 0.002582
+timestep 940000, total_error 0.007893
+Timestep 940000
+Duration 1.342165
+mean reward (100 episodes) -15.050000
+best mean reward -15.050000
+episodes 743
+exploration 0.154000
+learning_rate 0.000100
+timestep 942000, total_error 0.004558
+timestep 944000, total_error 0.006093
+timestep 946000, total_error 0.010330
+timestep 948000, total_error 0.014996
+timestep 950000, total_error 0.006236
+Timestep 950000
+Duration 1.346414
+mean reward (100 episodes) -15.070000
+best mean reward -14.980000
+episodes 747
+exploration 0.145000
+learning_rate 0.000100
+timestep 952000, total_error 0.003175
+timestep 954000, total_error 0.006234
+timestep 956000, total_error 0.007412
+timestep 958000, total_error 0.006354
+timestep 960000, total_error 0.004665
+Timestep 960000
+Duration 1.351763
+mean reward (100 episodes) -14.930000
+best mean reward -14.930000
+episodes 751
+exploration 0.136000
+learning_rate 0.000100
+timestep 962000, total_error 0.003397
+timestep 964000, total_error 0.001813
+timestep 966000, total_error 0.015294
+timestep 968000, total_error 0.001696
+timestep 970000, total_error 0.003340
+updated target network
+Timestep 970000
+Duration 1.351723
+mean reward (100 episodes) -14.690000
+best mean reward -14.690000
+episodes 755
+exploration 0.127000
+learning_rate 0.000100
+timestep 972000, total_error 0.003726
+timestep 974000, total_error 0.004866
+timestep 976000, total_error 0.002852
+timestep 978000, total_error 0.008687
+timestep 980000, total_error 0.004587
+Timestep 980000
+Duration 1.352257
+mean reward (100 episodes) -14.530000
+best mean reward -14.530000
+episodes 759
+exploration 0.118000
+learning_rate 0.000100
+timestep 982000, total_error 0.009644
+timestep 984000, total_error 0.003732
+timestep 986000, total_error 0.004163
+timestep 988000, total_error 0.004265
+timestep 990000, total_error 0.009756
+Timestep 990000
+Duration 1.356173
+mean reward (100 episodes) -14.410000
+best mean reward -14.410000
+episodes 762
+exploration 0.109000
+learning_rate 0.000100
+timestep 992000, total_error 0.003033
+timestep 994000, total_error 0.003645
+timestep 996000, total_error 0.001094
+timestep 998000, total_error 0.006195
+timestep 1000000, total_error 0.003134
+Timestep 1000000
+Duration 1.358082
+mean reward (100 episodes) -14.270000
+best mean reward -14.270000
+episodes 766
+exploration 0.100000
+learning_rate 0.000100
+saved snapshot: atari-1000000
+timestep 1002000, total_error 0.007957
+timestep 1004000, total_error 0.001920
+timestep 1006000, total_error 0.007530
+timestep 1008000, total_error 0.005101
+timestep 1010000, total_error 0.005749
+updated target network
+Timestep 1010000
+Duration 1.362355
+mean reward (100 episodes) -13.990000
+best mean reward -13.990000
+episodes 770
+exploration 0.099775
+learning_rate 0.000100
+timestep 1012000, total_error 0.004201
+timestep 1014000, total_error 0.005963
+timestep 1016000, total_error 0.014927
+timestep 1018000, total_error 0.004581
+timestep 1020000, total_error 0.006048
+Timestep 1020000
+Duration 1.357516
+mean reward (100 episodes) -13.900000
+best mean reward -13.900000
+episodes 774
+exploration 0.099550
+learning_rate 0.000100
+timestep 1022000, total_error 0.003574
+timestep 1024000, total_error 0.013653
+timestep 1026000, total_error 0.005084
+timestep 1028000, total_error 0.003793
+timestep 1030000, total_error 0.013843
+Timestep 1030000
+Duration 1.358337
+mean reward (100 episodes) -13.840000
+best mean reward -13.840000
+episodes 777
+exploration 0.099325
+learning_rate 0.000100
+timestep 1032000, total_error 0.001542
+timestep 1034000, total_error 0.004170
+timestep 1036000, total_error 0.005685
+timestep 1038000, total_error 0.007736
+timestep 1040000, total_error 0.001493
+Timestep 1040000
+Duration 1.356987
+mean reward (100 episodes) -13.500000
+best mean reward -13.500000
+episodes 781
+exploration 0.099100
+learning_rate 0.000100
+timestep 1042000, total_error 0.019832
+timestep 1044000, total_error 0.010164
+timestep 1046000, total_error 0.006739
+timestep 1048000, total_error 0.001387
+timestep 1050000, total_error 0.004745
+updated target network
+Timestep 1050000
+Duration 1.357402
+mean reward (100 episodes) -13.250000
+best mean reward -13.250000
+episodes 785
+exploration 0.098875
+learning_rate 0.000099
+timestep 1052000, total_error 0.011837
+timestep 1054000, total_error 0.005154
+timestep 1056000, total_error 0.019954
+timestep 1058000, total_error 0.002066
+timestep 1060000, total_error 0.007183
+Timestep 1060000
+Duration 1.358947
+mean reward (100 episodes) -13.130000
+best mean reward -13.130000
+episodes 788
+exploration 0.098650
+learning_rate 0.000099
+timestep 1062000, total_error 0.011438
+timestep 1064000, total_error 0.008232
+timestep 1066000, total_error 0.004882
+timestep 1068000, total_error 0.003650
+timestep 1070000, total_error 0.008545
+Timestep 1070000
+Duration 1.357652
+mean reward (100 episodes) -13.000000
+best mean reward -13.000000
+episodes 792
+exploration 0.098425
+learning_rate 0.000099
+timestep 1072000, total_error 0.003842
+timestep 1074000, total_error 0.003791
+timestep 1076000, total_error 0.003267
+timestep 1078000, total_error 0.003433
+timestep 1080000, total_error 0.003796
+Timestep 1080000
+Duration 1.358266
+mean reward (100 episodes) -12.820000
+best mean reward -12.820000
+episodes 795
+exploration 0.098200
+learning_rate 0.000099
+timestep 1082000, total_error 0.013169
+timestep 1084000, total_error 0.001434
+timestep 1086000, total_error 0.012548
+timestep 1088000, total_error 0.003974
+timestep 1090000, total_error 0.002905
+updated target network
+Timestep 1090000
+Duration 1.358002
+mean reward (100 episodes) -12.610000
+best mean reward -12.610000
+episodes 799
+exploration 0.097975
+learning_rate 0.000099
+timestep 1092000, total_error 0.001992
+timestep 1094000, total_error 0.005588
+timestep 1096000, total_error 0.038267
+timestep 1098000, total_error 0.002670
+timestep 1100000, total_error 0.002435
+Timestep 1100000
+Duration 1.354822
+mean reward (100 episodes) -12.440000
+best mean reward -12.420000
+episodes 803
+exploration 0.097750
+learning_rate 0.000099
+saved snapshot: atari-1100000
+timestep 1102000, total_error 0.001828
+timestep 1104000, total_error 0.004707
+timestep 1106000, total_error 0.005864
+timestep 1108000, total_error 0.002392
+timestep 1110000, total_error 0.003870
+Timestep 1110000
+Duration 1.360079
+mean reward (100 episodes) -12.250000
+best mean reward -12.190000
+episodes 806
+exploration 0.097525
+learning_rate 0.000099
+timestep 1112000, total_error 0.005798
+timestep 1114000, total_error 0.007161
+timestep 1116000, total_error 0.003052
+timestep 1118000, total_error 0.007686
+timestep 1120000, total_error 0.007353
+Timestep 1120000
+Duration 1.355796
+mean reward (100 episodes) -12.080000
+best mean reward -12.080000
+episodes 810
+exploration 0.097300
+learning_rate 0.000099
+timestep 1122000, total_error 0.001449
+timestep 1124000, total_error 0.008196
+timestep 1126000, total_error 0.003209
+timestep 1128000, total_error 0.016326
+timestep 1130000, total_error 0.000768
+updated target network
+Timestep 1130000
+Duration 1.355421
+mean reward (100 episodes) -11.860000
+best mean reward -11.860000
+episodes 813
+exploration 0.097075
+learning_rate 0.000098
+timestep 1132000, total_error 0.005445
+timestep 1134000, total_error 0.004350
+timestep 1136000, total_error 0.002993
+timestep 1138000, total_error 0.001889
+timestep 1140000, total_error 0.003773
+Timestep 1140000
+Duration 1.355488
+mean reward (100 episodes) -11.410000
+best mean reward -11.410000
+episodes 817
+exploration 0.096850
+learning_rate 0.000098
+timestep 1142000, total_error 0.001648
+timestep 1144000, total_error 0.001972
+timestep 1146000, total_error 0.003464
+timestep 1148000, total_error 0.009085
+timestep 1150000, total_error 0.001887
+Timestep 1150000
+Duration 1.355383
+mean reward (100 episodes) -11.180000
+best mean reward -11.180000
+episodes 820
+exploration 0.096625
+learning_rate 0.000098
+timestep 1152000, total_error 0.006657
+timestep 1154000, total_error 0.004967
+timestep 1156000, total_error 0.006470
+timestep 1158000, total_error 0.001965
+timestep 1160000, total_error 0.004180
+Timestep 1160000
+Duration 1.355871
+mean reward (100 episodes) -11.000000
+best mean reward -11.000000
+episodes 823
+exploration 0.096400
+learning_rate 0.000098
+timestep 1162000, total_error 0.017298
+timestep 1164000, total_error 0.024257
+timestep 1166000, total_error 0.005571
+timestep 1168000, total_error 0.003288
+timestep 1170000, total_error 0.003171
+updated target network
+Timestep 1170000
+Duration 1.354926
+mean reward (100 episodes) -10.830000
+best mean reward -10.830000
+episodes 827
+exploration 0.096175
+learning_rate 0.000098
+timestep 1172000, total_error 0.004566
+timestep 1174000, total_error 0.003057
+timestep 1176000, total_error 0.009305
+timestep 1178000, total_error 0.002301
+timestep 1180000, total_error 0.003562
+Timestep 1180000
+Duration 1.355224
+mean reward (100 episodes) -10.640000
+best mean reward -10.640000
+episodes 830
+exploration 0.095950
+learning_rate 0.000098
+timestep 1182000, total_error 0.001911
+timestep 1184000, total_error 0.001454
+timestep 1186000, total_error 0.008986
+timestep 1188000, total_error 0.007223
+timestep 1190000, total_error 0.010679
+Timestep 1190000
+Duration 1.356124
+mean reward (100 episodes) -10.550000
+best mean reward -10.550000
+episodes 833
+exploration 0.095725
+learning_rate 0.000098
+timestep 1192000, total_error 0.005450
+timestep 1194000, total_error 0.005843
+timestep 1196000, total_error 0.001582
+timestep 1198000, total_error 0.005080
+timestep 1200000, total_error 0.006600
+Timestep 1200000
+Duration 1.358201
+mean reward (100 episodes) -10.450000
+best mean reward -10.450000
+episodes 837
+exploration 0.095500
+learning_rate 0.000097
+saved snapshot: atari-1200000
+timestep 1202000, total_error 0.003564
+timestep 1204000, total_error 0.002216
+timestep 1206000, total_error 0.001834
+timestep 1208000, total_error 0.007487
+timestep 1210000, total_error 0.008269
+updated target network
+Timestep 1210000
+Duration 1.361882
+mean reward (100 episodes) -10.420000
+best mean reward -10.420000
+episodes 840
+exploration 0.095275
+learning_rate 0.000097
+timestep 1212000, total_error 0.016525
+timestep 1214000, total_error 0.022877
+timestep 1216000, total_error 0.029044
+timestep 1218000, total_error 0.002634
+timestep 1220000, total_error 0.005941
+Timestep 1220000
+Duration 1.360232
+mean reward (100 episodes) -10.370000
+best mean reward -10.370000
+episodes 844
+exploration 0.095050
+learning_rate 0.000097
+timestep 1222000, total_error 0.010007
+timestep 1224000, total_error 0.002707
+timestep 1226000, total_error 0.002810
+timestep 1228000, total_error 0.010033
+timestep 1230000, total_error 0.002970
+Timestep 1230000
+Duration 1.358313
+mean reward (100 episodes) -10.060000
+best mean reward -10.060000
+episodes 847
+exploration 0.094825
+learning_rate 0.000097
+timestep 1232000, total_error 0.001525
+timestep 1234000, total_error 0.003445
+timestep 1236000, total_error 0.007576
+timestep 1238000, total_error 0.007810
+timestep 1240000, total_error 0.018055
+Timestep 1240000
+Duration 1.360279
+mean reward (100 episodes) -10.070000
+best mean reward -10.010000
+episodes 850
+exploration 0.094600
+learning_rate 0.000097
+timestep 1242000, total_error 0.001743
+timestep 1244000, total_error 0.002628
+timestep 1246000, total_error 0.026345
+timestep 1248000, total_error 0.008074
+timestep 1250000, total_error 0.006760
+updated target network
+Timestep 1250000
+Duration 1.359914
+mean reward (100 episodes) -9.920000
+best mean reward -9.890000
+episodes 853
+exploration 0.094375
+learning_rate 0.000097
+timestep 1252000, total_error 0.018714
+timestep 1254000, total_error 0.014384
+timestep 1256000, total_error 0.004547
+timestep 1258000, total_error 0.010766
+timestep 1260000, total_error 0.005008
+Timestep 1260000
+Duration 1.358483
+mean reward (100 episodes) -9.810000
+best mean reward -9.810000
+episodes 856
+exploration 0.094150
+learning_rate 0.000097
+timestep 1262000, total_error 0.005579
+timestep 1264000, total_error 0.008576
+timestep 1266000, total_error 0.008388
+timestep 1268000, total_error 0.003962
+timestep 1270000, total_error 0.004827
+Timestep 1270000
+Duration 1.359340
+mean reward (100 episodes) -9.530000
+best mean reward -9.530000
+episodes 859
+exploration 0.093925
+learning_rate 0.000097
+timestep 1272000, total_error 0.008313
+timestep 1274000, total_error 0.003803
+timestep 1276000, total_error 0.001794
+timestep 1278000, total_error 0.001261
+timestep 1280000, total_error 0.003097
+Timestep 1280000
+Duration 1.359751
+mean reward (100 episodes) -9.300000
+best mean reward -9.300000
+episodes 862
+exploration 0.093700
+learning_rate 0.000097
+timestep 1282000, total_error 0.005284
+timestep 1284000, total_error 0.001773
+timestep 1286000, total_error 0.008969
+timestep 1288000, total_error 0.015555
+timestep 1290000, total_error 0.005951
+updated target network
+Timestep 1290000
+Duration 1.361128
+mean reward (100 episodes) -9.280000
+best mean reward -9.280000
+episodes 865
+exploration 0.093475
+learning_rate 0.000096
+timestep 1292000, total_error 0.009369
+timestep 1294000, total_error 0.007446
+timestep 1296000, total_error 0.005909
+timestep 1298000, total_error 0.014999
+timestep 1300000, total_error 0.002204
+Timestep 1300000
+Duration 1.359893
+mean reward (100 episodes) -9.080000
+best mean reward -9.080000
+episodes 867
+exploration 0.093250
+learning_rate 0.000096
+saved snapshot: atari-1300000
+timestep 1302000, total_error 0.002319
+timestep 1304000, total_error 0.011139
+timestep 1306000, total_error 0.005499
+timestep 1308000, total_error 0.004389
+timestep 1310000, total_error 0.001991
+Timestep 1310000
+Duration 1.362647
+mean reward (100 episodes) -8.880000
+best mean reward -8.880000
+episodes 870
+exploration 0.093025
+learning_rate 0.000096
+timestep 1312000, total_error 0.009280
+timestep 1314000, total_error 0.017719
+timestep 1316000, total_error 0.007976
+timestep 1318000, total_error 0.005197
+timestep 1320000, total_error 0.001706
+Timestep 1320000
+Duration 1.356964
+mean reward (100 episodes) -8.660000
+best mean reward -8.620000
+episodes 874
+exploration 0.092800
+learning_rate 0.000096
+timestep 1322000, total_error 0.005056
+timestep 1324000, total_error 0.006393
+timestep 1326000, total_error 0.004657
+timestep 1328000, total_error 0.001638
+timestep 1330000, total_error 0.005149
+updated target network
+Timestep 1330000
+Duration 1.359200
+mean reward (100 episodes) -8.450000
+best mean reward -8.450000
+episodes 877
+exploration 0.092575
+learning_rate 0.000096
+timestep 1332000, total_error 0.004155
+timestep 1334000, total_error 0.003237
+timestep 1336000, total_error 0.006238
+timestep 1338000, total_error 0.003190
+timestep 1340000, total_error 0.003624
+Timestep 1340000
+Duration 1.358070
+mean reward (100 episodes) -8.320000
+best mean reward -8.320000
+episodes 880
+exploration 0.092350
+learning_rate 0.000096
+timestep 1342000, total_error 0.018891
+timestep 1344000, total_error 0.006114
+timestep 1346000, total_error 0.003149
+timestep 1348000, total_error 0.005905
+timestep 1350000, total_error 0.012997
+Timestep 1350000
+Duration 1.357838
+mean reward (100 episodes) -8.320000
+best mean reward -8.320000
+episodes 883
+exploration 0.092125
+learning_rate 0.000096
+timestep 1352000, total_error 0.004153
+timestep 1354000, total_error 0.004113
+timestep 1356000, total_error 0.001365
+timestep 1358000, total_error 0.002810
+timestep 1360000, total_error 0.002865
+Timestep 1360000
+Duration 1.359624
+mean reward (100 episodes) -7.990000
+best mean reward -7.990000
+episodes 886
+exploration 0.091900
+learning_rate 0.000096
+timestep 1362000, total_error 0.004783
+timestep 1364000, total_error 0.005119
+timestep 1366000, total_error 0.001549
+timestep 1368000, total_error 0.013295
+timestep 1370000, total_error 0.004928
+updated target network
+Timestep 1370000
+Duration 1.359087
+mean reward (100 episodes) -7.890000
+best mean reward -7.890000
+episodes 888
+exploration 0.091675
+learning_rate 0.000095
+timestep 1372000, total_error 0.004791
+timestep 1374000, total_error 0.006028
+timestep 1376000, total_error 0.009440
+timestep 1378000, total_error 0.001724
+timestep 1380000, total_error 0.004951
+Timestep 1380000
+Duration 1.359319
+mean reward (100 episodes) -7.660000
+best mean reward -7.660000
+episodes 891
+exploration 0.091450
+learning_rate 0.000095
+timestep 1382000, total_error 0.009795
+timestep 1384000, total_error 0.001780
+timestep 1386000, total_error 0.003098
+timestep 1388000, total_error 0.017799
+timestep 1390000, total_error 0.003205
+Timestep 1390000
+Duration 1.357154
+mean reward (100 episodes) -7.390000
+best mean reward -7.390000
+episodes 894
+exploration 0.091225
+learning_rate 0.000095
+timestep 1392000, total_error 0.002432
+timestep 1394000, total_error 0.002779
+timestep 1396000, total_error 0.005214
+timestep 1398000, total_error 0.020038
+timestep 1400000, total_error 0.001044
+Timestep 1400000
+Duration 1.357759
+mean reward (100 episodes) -7.120000
+best mean reward -7.120000
+episodes 896
+exploration 0.091000
+learning_rate 0.000095
+saved snapshot: atari-1400000
+timestep 1402000, total_error 0.001141
+timestep 1404000, total_error 0.001255
+timestep 1406000, total_error 0.007620
+timestep 1408000, total_error 0.009173
+timestep 1410000, total_error 0.004704
+updated target network
+Timestep 1410000
+Duration 1.363375
+mean reward (100 episodes) -6.720000
+best mean reward -6.720000
+episodes 899
+exploration 0.090775
+learning_rate 0.000095
+timestep 1412000, total_error 0.004953
+timestep 1414000, total_error 0.003215
+timestep 1416000, total_error 0.010144
+timestep 1418000, total_error 0.001882
+timestep 1420000, total_error 0.008616
+Timestep 1420000
+Duration 1.359136
+mean reward (100 episodes) -6.320000
+best mean reward -6.320000
+episodes 902
+exploration 0.090550
+learning_rate 0.000095
+timestep 1422000, total_error 0.002991
+timestep 1424000, total_error 0.016094
+timestep 1426000, total_error 0.030691
+timestep 1428000, total_error 0.003545
+timestep 1430000, total_error 0.003909
+Timestep 1430000
+Duration 1.359099
+mean reward (100 episodes) -6.050000
+best mean reward -6.050000
+episodes 904
+exploration 0.090325
+learning_rate 0.000095
+timestep 1432000, total_error 0.004203
+timestep 1434000, total_error 0.004206
+timestep 1436000, total_error 0.001811
+timestep 1438000, total_error 0.009146
+timestep 1440000, total_error 0.004341
+Timestep 1440000
+Duration 1.359939
+mean reward (100 episodes) -5.850000
+best mean reward -5.850000
+episodes 907
+exploration 0.090100
+learning_rate 0.000095
+timestep 1442000, total_error 0.002531
+timestep 1444000, total_error 0.004941
+timestep 1446000, total_error 0.012616
+timestep 1448000, total_error 0.003063
+timestep 1450000, total_error 0.003289
+updated target network
+Timestep 1450000
+Duration 1.359557
+mean reward (100 episodes) -5.390000
+best mean reward -5.390000
+episodes 910
+exploration 0.089875
+learning_rate 0.000094
+timestep 1452000, total_error 0.004709
+timestep 1454000, total_error 0.005708
+timestep 1456000, total_error 0.004693
+timestep 1458000, total_error 0.008546
+timestep 1460000, total_error 0.017620
+Timestep 1460000
+Duration 1.358920
+mean reward (100 episodes) -5.050000
+best mean reward -5.050000
+episodes 913
+exploration 0.089650
+learning_rate 0.000094
+timestep 1462000, total_error 0.004779
+timestep 1464000, total_error 0.006185
+timestep 1466000, total_error 0.004531
+timestep 1468000, total_error 0.001191
+timestep 1470000, total_error 0.001561
+Timestep 1470000
+Duration 1.359653
+mean reward (100 episodes) -4.660000
+best mean reward -4.660000
+episodes 916
+exploration 0.089425
+learning_rate 0.000094
+timestep 1472000, total_error 0.021476
+timestep 1474000, total_error 0.005009
+timestep 1476000, total_error 0.004117
+timestep 1478000, total_error 0.003347
+timestep 1480000, total_error 0.004532
+Timestep 1480000
+Duration 1.359829
+mean reward (100 episodes) -4.060000
+best mean reward -4.060000
+episodes 920
+exploration 0.089200
+learning_rate 0.000094
+timestep 1482000, total_error 0.009108
+timestep 1484000, total_error 0.005336
+timestep 1486000, total_error 0.005846
+timestep 1488000, total_error 0.007156
+timestep 1490000, total_error 0.004206
+updated target network
+Timestep 1490000
+Duration 1.358779
+mean reward (100 episodes) -4.070000
+best mean reward -4.030000
+episodes 922
+exploration 0.088975
+learning_rate 0.000094
+timestep 1492000, total_error 0.006641
+timestep 1494000, total_error 0.002387
+timestep 1496000, total_error 0.009544
+timestep 1498000, total_error 0.007019
+timestep 1500000, total_error 0.002259
+Timestep 1500000
+Duration 1.359564
+mean reward (100 episodes) -3.490000
+best mean reward -3.490000
+episodes 926
+exploration 0.088750
+learning_rate 0.000094
+saved snapshot: atari-1500000
+timestep 1502000, total_error 0.003568
+timestep 1504000, total_error 0.005060
+timestep 1506000, total_error 0.001422
+timestep 1508000, total_error 0.004558
+timestep 1510000, total_error 0.003671
+Timestep 1510000
+Duration 1.363758
+mean reward (100 episodes) -3.160000
+best mean reward -3.160000
+episodes 929
+exploration 0.088525
+learning_rate 0.000094
+timestep 1512000, total_error 0.006301
+timestep 1514000, total_error 0.003877
+timestep 1516000, total_error 0.003095
+timestep 1518000, total_error 0.002128
+timestep 1520000, total_error 0.002425
+Timestep 1520000
+Duration 1.359198
+mean reward (100 episodes) -2.710000
+best mean reward -2.710000
+episodes 932
+exploration 0.088300
+learning_rate 0.000094
+timestep 1522000, total_error 0.003318
+timestep 1524000, total_error 0.004010
+timestep 1526000, total_error 0.003705
+timestep 1528000, total_error 0.002207
+timestep 1530000, total_error 0.007640
+updated target network
+Timestep 1530000
+Duration 1.358927
+mean reward (100 episodes) -2.140000
+best mean reward -2.140000
+episodes 935
+exploration 0.088075
+learning_rate 0.000093
+timestep 1532000, total_error 0.005220
+timestep 1534000, total_error 0.010412
+timestep 1536000, total_error 0.001973
+timestep 1538000, total_error 0.002807
+timestep 1540000, total_error 0.009290
+Timestep 1540000
+Duration 1.360703
+mean reward (100 episodes) -1.330000
+best mean reward -1.330000
+episodes 939
+exploration 0.087850
+learning_rate 0.000093
+timestep 1542000, total_error 0.005827
+timestep 1544000, total_error 0.004105
+timestep 1546000, total_error 0.004950
+timestep 1548000, total_error 0.000763
+timestep 1550000, total_error 0.008336
+Timestep 1550000
+Duration 1.361782
+mean reward (100 episodes) -0.470000
+best mean reward -0.470000
+episodes 943
+exploration 0.087625
+learning_rate 0.000093
+timestep 1552000, total_error 0.006464
+timestep 1554000, total_error 0.003694
+timestep 1556000, total_error 0.001314
+timestep 1558000, total_error 0.004048
+timestep 1560000, total_error 0.001872
+Timestep 1560000
+Duration 1.358629
+mean reward (100 episodes) 0.060000
+best mean reward 0.060000
+episodes 946
+exploration 0.087400
+learning_rate 0.000093
+timestep 1562000, total_error 0.012490
+timestep 1564000, total_error 0.012136
+timestep 1566000, total_error 0.008519
+timestep 1568000, total_error 0.030987
+timestep 1570000, total_error 0.002200
+updated target network
+Timestep 1570000
+Duration 1.359321
+mean reward (100 episodes) 1.000000
+best mean reward 1.000000
+episodes 950
+exploration 0.087175
+learning_rate 0.000093
+timestep 1572000, total_error 0.003991
+timestep 1574000, total_error 0.004197
+timestep 1576000, total_error 0.002331
+timestep 1578000, total_error 0.005368
+timestep 1580000, total_error 0.002809
+Timestep 1580000
+Duration 1.361029
+mean reward (100 episodes) 1.670000
+best mean reward 1.670000
+episodes 954
+exploration 0.086950
+learning_rate 0.000093
+timestep 1582000, total_error 0.033373
+timestep 1584000, total_error 0.009932
+timestep 1586000, total_error 0.001375
+timestep 1588000, total_error 0.006532
+timestep 1590000, total_error 0.011166
+Timestep 1590000
+Duration 1.360124
+mean reward (100 episodes) 2.070000
+best mean reward 2.070000
+episodes 957
+exploration 0.086725
+learning_rate 0.000093
+timestep 1592000, total_error 0.002847
+timestep 1594000, total_error 0.003520
+timestep 1596000, total_error 0.008078
+timestep 1598000, total_error 0.004047
+timestep 1600000, total_error 0.004179
+Timestep 1600000
+Duration 1.360156
+mean reward (100 episodes) 2.510000
+best mean reward 2.510000
+episodes 960
+exploration 0.086500
+learning_rate 0.000092
+saved snapshot: atari-1600000
+timestep 1602000, total_error 0.003514
+timestep 1604000, total_error 0.004667
+timestep 1606000, total_error 0.006746
+timestep 1608000, total_error 0.003560
+timestep 1610000, total_error 0.005846
+updated target network
+Timestep 1610000
+Duration 1.364990
+mean reward (100 episodes) 3.280000
+best mean reward 3.280000
+episodes 964
+exploration 0.086275
+learning_rate 0.000092
+timestep 1612000, total_error 0.005579
+timestep 1614000, total_error 0.022391
+timestep 1616000, total_error 0.002795
+timestep 1618000, total_error 0.005073
+timestep 1620000, total_error 0.002298
+Timestep 1620000
+Duration 1.359847
+mean reward (100 episodes) 3.940000
+best mean reward 3.940000
+episodes 968
+exploration 0.086050
+learning_rate 0.000092
+timestep 1622000, total_error 0.003269
+timestep 1624000, total_error 0.003153
+timestep 1626000, total_error 0.003024
+timestep 1628000, total_error 0.004097
+timestep 1630000, total_error 0.001716
+Timestep 1630000
+Duration 1.360517
+mean reward (100 episodes) 4.260000
+best mean reward 4.290000
+episodes 971
+exploration 0.085825
+learning_rate 0.000092
+timestep 1632000, total_error 0.001924
+timestep 1634000, total_error 0.002064
+timestep 1636000, total_error 0.005579
+timestep 1638000, total_error 0.006761
+timestep 1640000, total_error 0.009716
+Timestep 1640000
+Duration 1.360923
+mean reward (100 episodes) 4.810000
+best mean reward 4.810000
+episodes 974
+exploration 0.085600
+learning_rate 0.000092
+timestep 1642000, total_error 0.004329
+timestep 1644000, total_error 0.007109
+timestep 1646000, total_error 0.035141
+timestep 1648000, total_error 0.006677
+timestep 1650000, total_error 0.011447
+updated target network
+Timestep 1650000
+Duration 1.359129
+mean reward (100 episodes) 5.430000
+best mean reward 5.430000
+episodes 977
+exploration 0.085375
+learning_rate 0.000092
+timestep 1652000, total_error 0.002794
+timestep 1654000, total_error 0.008699
+timestep 1656000, total_error 0.002971
+timestep 1658000, total_error 0.009274
+timestep 1660000, total_error 0.004083
+Timestep 1660000
+Duration 1.362009
+mean reward (100 episodes) 6.160000
+best mean reward 6.160000
+episodes 981
+exploration 0.085150
+learning_rate 0.000092
+timestep 1662000, total_error 0.023664
+timestep 1664000, total_error 0.009093
+timestep 1666000, total_error 0.007736
+timestep 1668000, total_error 0.015167
+timestep 1670000, total_error 0.001611
+Timestep 1670000
+Duration 1.360508
+mean reward (100 episodes) 6.910000
+best mean reward 6.910000
+episodes 985
+exploration 0.084925
+learning_rate 0.000092
+timestep 1672000, total_error 0.017686
+timestep 1674000, total_error 0.021522
+timestep 1676000, total_error 0.021740
+timestep 1678000, total_error 0.016129
+timestep 1680000, total_error 0.012165
+Timestep 1680000
+Duration 1.360085
+mean reward (100 episodes) 7.770000
+best mean reward 7.770000
+episodes 989
+exploration 0.084700
+learning_rate 0.000092
+timestep 1682000, total_error 0.006221
+timestep 1684000, total_error 0.008882
+timestep 1686000, total_error 0.016931
+timestep 1688000, total_error 0.005521
+timestep 1690000, total_error 0.004778
+updated target network
+Timestep 1690000
+Duration 1.359757
+mean reward (100 episodes) 8.470000
+best mean reward 8.470000
+episodes 993
+exploration 0.084475
+learning_rate 0.000091
+timestep 1692000, total_error 0.012168
+timestep 1694000, total_error 0.013168
+timestep 1696000, total_error 0.005358
+timestep 1698000, total_error 0.023307
+timestep 1700000, total_error 0.008406
+Timestep 1700000
+Duration 1.361526
+mean reward (100 episodes) 9.090000
+best mean reward 9.090000
+episodes 997
+exploration 0.084250
+learning_rate 0.000091
+saved snapshot: atari-1700000
+timestep 1702000, total_error 0.006576
+timestep 1704000, total_error 0.003656
+timestep 1706000, total_error 0.008269
+timestep 1708000, total_error 0.018201
+timestep 1710000, total_error 0.003785
+Timestep 1710000
+Duration 1.430700
+mean reward (100 episodes) 9.820000
+best mean reward 9.820000
+episodes 1002
+exploration 0.084025
+learning_rate 0.000091
+timestep 1712000, total_error 0.003223
+timestep 1714000, total_error 0.002157
+timestep 1716000, total_error 0.006497
+timestep 1718000, total_error 0.003295
+timestep 1720000, total_error 0.013163
+Timestep 1720000
+Duration 1.361767
+mean reward (100 episodes) 10.260000
+best mean reward 10.260000
+episodes 1005
+exploration 0.083800
+learning_rate 0.000091
+timestep 1722000, total_error 0.005003
+timestep 1724000, total_error 0.004771
+timestep 1726000, total_error 0.008269
+timestep 1728000, total_error 0.004383
+timestep 1730000, total_error 0.001439
+updated target network
+Timestep 1730000
+Duration 1.362953
+mean reward (100 episodes) 10.870000
+best mean reward 10.870000
+episodes 1009
+exploration 0.083575
+learning_rate 0.000091
+timestep 1732000, total_error 0.005141
+timestep 1734000, total_error 0.005042
+timestep 1736000, total_error 0.005016
+timestep 1738000, total_error 0.034152
+timestep 1740000, total_error 0.003121
+Timestep 1740000
+Duration 1.363712
+mean reward (100 episodes) 11.460000
+best mean reward 11.460000
+episodes 1014
+exploration 0.083350
+learning_rate 0.000091
+timestep 1742000, total_error 0.006229
+timestep 1744000, total_error 0.003993
+timestep 1746000, total_error 0.002508
+timestep 1748000, total_error 0.002341
+timestep 1750000, total_error 0.000650
+Timestep 1750000
+Duration 1.361410
+mean reward (100 episodes) 11.800000
+best mean reward 11.800000
+episodes 1018
+exploration 0.083125
+learning_rate 0.000091
+timestep 1752000, total_error 0.008165
+timestep 1754000, total_error 0.003495
+timestep 1756000, total_error 0.008577
+timestep 1758000, total_error 0.014534
+timestep 1760000, total_error 0.007178
+Timestep 1760000
+Duration 1.362260
+mean reward (100 episodes) 12.400000
+best mean reward 12.400000
+episodes 1022
+exploration 0.082900
+learning_rate 0.000091
+timestep 1762000, total_error 0.005152
+timestep 1764000, total_error 0.004002
+timestep 1766000, total_error 0.002462
+timestep 1768000, total_error 0.003303
+timestep 1770000, total_error 0.004706
+updated target network
+Timestep 1770000
+Duration 1.361973
+mean reward (100 episodes) 12.930000
+best mean reward 12.930000
+episodes 1026
+exploration 0.082675
+learning_rate 0.000090
+timestep 1772000, total_error 0.006531
+timestep 1774000, total_error 0.003694
+timestep 1776000, total_error 0.010151
+timestep 1778000, total_error 0.006164
+timestep 1780000, total_error 0.001877
+Timestep 1780000
+Duration 1.361681
+mean reward (100 episodes) 13.040000
+best mean reward 13.040000
+episodes 1029
+exploration 0.082450
+learning_rate 0.000090
+timestep 1782000, total_error 0.008819
+timestep 1784000, total_error 0.001744
+timestep 1786000, total_error 0.010025
+timestep 1788000, total_error 0.004139
+timestep 1790000, total_error 0.022756
+Timestep 1790000
+Duration 1.361740
+mean reward (100 episodes) 13.220000
+best mean reward 13.220000
+episodes 1033
+exploration 0.082225
+learning_rate 0.000090
+timestep 1792000, total_error 0.004310
+timestep 1794000, total_error 0.007777
+timestep 1796000, total_error 0.026444
+timestep 1798000, total_error 0.001811
+timestep 1800000, total_error 0.008647
+Timestep 1800000
+Duration 1.363173
+mean reward (100 episodes) 13.200000
+best mean reward 13.220000
+episodes 1036
+exploration 0.082000
+learning_rate 0.000090
+saved snapshot: atari-1800000
+timestep 1802000, total_error 0.020369
+timestep 1804000, total_error 0.004404
+timestep 1806000, total_error 0.002870
+timestep 1808000, total_error 0.012154
+timestep 1810000, total_error 0.010892
+updated target network
+Timestep 1810000
+Duration 1.365575
+mean reward (100 episodes) 13.320000
+best mean reward 13.320000
+episodes 1039
+exploration 0.081775
+learning_rate 0.000090
+timestep 1812000, total_error 0.009406
+timestep 1814000, total_error 0.004134
+timestep 1816000, total_error 0.001884
+timestep 1818000, total_error 0.004817
+timestep 1820000, total_error 0.002099
+Timestep 1820000
+Duration 1.362535
+mean reward (100 episodes) 13.310000
+best mean reward 13.410000
+episodes 1042
+exploration 0.081550
+learning_rate 0.000090
+timestep 1822000, total_error 0.004259
+timestep 1824000, total_error 0.004166
+timestep 1826000, total_error 0.003002
+timestep 1828000, total_error 0.005362
+timestep 1830000, total_error 0.001323
+Timestep 1830000
+Duration 1.363116
+mean reward (100 episodes) 13.100000
+best mean reward 13.410000
+episodes 1045
+exploration 0.081325
+learning_rate 0.000090
+timestep 1832000, total_error 0.002604
+timestep 1834000, total_error 0.002258
+timestep 1836000, total_error 0.002258
+timestep 1838000, total_error 0.007147
+timestep 1840000, total_error 0.003777
+Timestep 1840000
+Duration 1.360972
+mean reward (100 episodes) 13.030000
+best mean reward 13.410000
+episodes 1048
+exploration 0.081100
+learning_rate 0.000090
+timestep 1842000, total_error 0.001827
+timestep 1844000, total_error 0.005954
+timestep 1846000, total_error 0.002326
+timestep 1848000, total_error 0.011007
+timestep 1850000, total_error 0.003298
+updated target network
+Timestep 1850000
+Duration 1.362858
+mean reward (100 episodes) 12.910000
+best mean reward 13.410000
+episodes 1051
+exploration 0.080875
+learning_rate 0.000089
+timestep 1852000, total_error 0.004559
+timestep 1854000, total_error 0.005894
+timestep 1856000, total_error 0.015961
+timestep 1858000, total_error 0.011597
+timestep 1860000, total_error 0.003733
+Timestep 1860000
+Duration 1.362777
+mean reward (100 episodes) 12.980000
+best mean reward 13.410000
+episodes 1054
+exploration 0.080650
+learning_rate 0.000089
+timestep 1862000, total_error 0.013847
+timestep 1864000, total_error 0.003333
+timestep 1866000, total_error 0.005043
+timestep 1868000, total_error 0.010509
+timestep 1870000, total_error 0.002350
+Timestep 1870000
+Duration 1.364295
+mean reward (100 episodes) 12.960000
+best mean reward 13.410000
+episodes 1057
+exploration 0.080425
+learning_rate 0.000089
+timestep 1872000, total_error 0.003076
+timestep 1874000, total_error 0.003722
+timestep 1876000, total_error 0.002706
+timestep 1878000, total_error 0.001668
+timestep 1880000, total_error 0.005634
+Timestep 1880000
+Duration 1.363013
+mean reward (100 episodes) 12.980000
+best mean reward 13.410000
+episodes 1060
+exploration 0.080200
+learning_rate 0.000089
+timestep 1882000, total_error 0.004093
+timestep 1884000, total_error 0.006094
+timestep 1886000, total_error 0.015217
+timestep 1888000, total_error 0.001276
+timestep 1890000, total_error 0.023749
+updated target network
+Timestep 1890000
+Duration 1.362734
+mean reward (100 episodes) 12.980000
+best mean reward 13.410000
+episodes 1063
+exploration 0.079975
+learning_rate 0.000089
+timestep 1892000, total_error 0.001497
+timestep 1894000, total_error 0.003847
+timestep 1896000, total_error 0.001449
+timestep 1898000, total_error 0.005995
+timestep 1900000, total_error 0.001564
+Timestep 1900000
+Duration 1.362780
+mean reward (100 episodes) 13.030000
+best mean reward 13.410000
+episodes 1067
+exploration 0.079750
+learning_rate 0.000089
+saved snapshot: atari-1900000
+timestep 1902000, total_error 0.003017
+timestep 1904000, total_error 0.002460
+timestep 1906000, total_error 0.006529
+timestep 1908000, total_error 0.005648
+timestep 1910000, total_error 0.003812
+Timestep 1910000
+Duration 1.367838
+mean reward (100 episodes) 13.490000
+best mean reward 13.490000
+episodes 1072
+exploration 0.079525
+learning_rate 0.000089
+timestep 1912000, total_error 0.004379
+timestep 1914000, total_error 0.006403
+timestep 1916000, total_error 0.002019
+timestep 1918000, total_error 0.006958
+timestep 1920000, total_error 0.001582
+Timestep 1920000
+Duration 1.365712
+mean reward (100 episodes) 13.540000
+best mean reward 13.550000
+episodes 1076
+exploration 0.079300
+learning_rate 0.000089
+timestep 1922000, total_error 0.009866
+timestep 1924000, total_error 0.004310
+timestep 1926000, total_error 0.006697
+timestep 1928000, total_error 0.004287
+timestep 1930000, total_error 0.014534
+updated target network
+Timestep 1930000
+Duration 1.364780
+mean reward (100 episodes) 13.610000
+best mean reward 13.610000
+episodes 1079
+exploration 0.079075
+learning_rate 0.000088
+timestep 1932000, total_error 0.002230
+timestep 1934000, total_error 0.004778
+timestep 1936000, total_error 0.005680
+timestep 1938000, total_error 0.002830
+timestep 1940000, total_error 0.006857
+Timestep 1940000
+Duration 1.366578
+mean reward (100 episodes) 13.610000
+best mean reward 13.610000
+episodes 1084
+exploration 0.078850
+learning_rate 0.000088
+timestep 1942000, total_error 0.006092
+timestep 1944000, total_error 0.005355
+timestep 1946000, total_error 0.012286
+timestep 1948000, total_error 0.014510
+timestep 1950000, total_error 0.003384
+Timestep 1950000
+Duration 1.365532
+mean reward (100 episodes) 13.680000
+best mean reward 13.710000
+episodes 1088
+exploration 0.078625
+learning_rate 0.000088
+timestep 1952000, total_error 0.011772
+timestep 1954000, total_error 0.001530
+timestep 1956000, total_error 0.008599
+timestep 1958000, total_error 0.002176
+timestep 1960000, total_error 0.002559
+Timestep 1960000
+Duration 1.365076
+mean reward (100 episodes) 13.750000
+best mean reward 13.760000
+episodes 1092
+exploration 0.078400
+learning_rate 0.000088
+timestep 1962000, total_error 0.001524
+timestep 1964000, total_error 0.001196
+timestep 1966000, total_error 0.004904
+timestep 1968000, total_error 0.003206
+timestep 1970000, total_error 0.007872
+updated target network
+Timestep 1970000
+Duration 1.364987
+mean reward (100 episodes) 13.630000
+best mean reward 13.760000
+episodes 1096
+exploration 0.078175
+learning_rate 0.000088
+timestep 1972000, total_error 0.003655
+timestep 1974000, total_error 0.009529
+timestep 1976000, total_error 0.003836
+timestep 1978000, total_error 0.007101
+timestep 1980000, total_error 0.003080
+Timestep 1980000
+Duration 1.364109
+mean reward (100 episodes) 13.440000
+best mean reward 13.760000
+episodes 1099
+exploration 0.077950
+learning_rate 0.000088
+timestep 1982000, total_error 0.004269
+timestep 1984000, total_error 0.002123
+timestep 1986000, total_error 0.006437
+timestep 1988000, total_error 0.003333
+timestep 1990000, total_error 0.003661
+Timestep 1990000
+Duration 1.365447
+mean reward (100 episodes) 13.400000
+best mean reward 13.760000
+episodes 1103
+exploration 0.077725
+learning_rate 0.000088
+timestep 1992000, total_error 0.000917
+timestep 1994000, total_error 0.003488
+timestep 1996000, total_error 0.001598
+timestep 1998000, total_error 0.001252
+timestep 2000000, total_error 0.001968
+Timestep 2000000
+Duration 1.364818
+mean reward (100 episodes) 13.330000
+best mean reward 13.760000
+episodes 1107
+exploration 0.077500
+learning_rate 0.000087
+saved snapshot: atari-2000000
+timestep 2002000, total_error 0.003728
+timestep 2004000, total_error 0.001498
+timestep 2006000, total_error 0.010408
+timestep 2008000, total_error 0.007416
+timestep 2010000, total_error 0.002413
+updated target network
+Timestep 2010000
+Duration 1.367632
+mean reward (100 episodes) 13.190000
+best mean reward 13.760000
+episodes 1110
+exploration 0.077275
+learning_rate 0.000087
+timestep 2012000, total_error 0.002063
+timestep 2014000, total_error 0.022775
+timestep 2016000, total_error 0.018977
+timestep 2018000, total_error 0.006362
+timestep 2020000, total_error 0.011139
+Timestep 2020000
+Duration 1.363953
+mean reward (100 episodes) 13.100000
+best mean reward 13.760000
+episodes 1114
+exploration 0.077050
+learning_rate 0.000087
+timestep 2022000, total_error 0.010036
+timestep 2024000, total_error 0.001281
+timestep 2026000, total_error 0.002611
+timestep 2028000, total_error 0.002181
+timestep 2030000, total_error 0.004782
+Timestep 2030000
+Duration 1.363337
+mean reward (100 episodes) 13.060000
+best mean reward 13.760000
+episodes 1117
+exploration 0.076825
+learning_rate 0.000087
+timestep 2032000, total_error 0.006111
+timestep 2034000, total_error 0.009979
+timestep 2036000, total_error 0.008349
+timestep 2038000, total_error 0.005775
+timestep 2040000, total_error 0.028482
+Timestep 2040000
+Duration 1.364326
+mean reward (100 episodes) 12.960000
+best mean reward 13.760000
+episodes 1121
+exploration 0.076600
+learning_rate 0.000087
+timestep 2042000, total_error 0.004231
+timestep 2044000, total_error 0.003451
+timestep 2046000, total_error 0.003445
+timestep 2048000, total_error 0.005904
+timestep 2050000, total_error 0.002018
+updated target network
+Timestep 2050000
+Duration 1.362755
+mean reward (100 episodes) 12.860000
+best mean reward 13.760000
+episodes 1125
+exploration 0.076375
+learning_rate 0.000087
+timestep 2052000, total_error 0.012729
+timestep 2054000, total_error 0.004769
+timestep 2056000, total_error 0.012397
+timestep 2058000, total_error 0.005553
+timestep 2060000, total_error 0.003640
+Timestep 2060000
+Duration 1.363038
+mean reward (100 episodes) 12.950000
+best mean reward 13.760000
+episodes 1128
+exploration 0.076150
+learning_rate 0.000087
+timestep 2062000, total_error 0.001681
+timestep 2064000, total_error 0.008780
+timestep 2066000, total_error 0.009213
+timestep 2068000, total_error 0.020002
+timestep 2070000, total_error 0.004816
+Timestep 2070000
+Duration 1.364143
+mean reward (100 episodes) 13.070000
+best mean reward 13.760000
+episodes 1132
+exploration 0.075925
+learning_rate 0.000087
+timestep 2072000, total_error 0.000796
+timestep 2074000, total_error 0.002722
+timestep 2076000, total_error 0.005491
+timestep 2078000, total_error 0.016785
+timestep 2080000, total_error 0.004324
+Timestep 2080000
+Duration 1.363098
+mean reward (100 episodes) 13.250000
+best mean reward 13.760000
+episodes 1136
+exploration 0.075700
+learning_rate 0.000087
+timestep 2082000, total_error 0.002549
+timestep 2084000, total_error 0.016600
+timestep 2086000, total_error 0.004725
+timestep 2088000, total_error 0.002613
+timestep 2090000, total_error 0.001415
+updated target network
+Timestep 2090000
+Duration 1.364043
+mean reward (100 episodes) 13.210000
+best mean reward 13.760000
+episodes 1139
+exploration 0.075475
+learning_rate 0.000086
+timestep 2092000, total_error 0.009368
+timestep 2094000, total_error 0.001951
+timestep 2096000, total_error 0.004621
+timestep 2098000, total_error 0.003091
+timestep 2100000, total_error 0.006400
+Timestep 2100000
+Duration 1.365125
+mean reward (100 episodes) 13.630000
+best mean reward 13.760000
+episodes 1144
+exploration 0.075250
+learning_rate 0.000086
+saved snapshot: atari-2100000
+timestep 2102000, total_error 0.011824
+timestep 2104000, total_error 0.010597
+timestep 2106000, total_error 0.003540
+timestep 2108000, total_error 0.004235
+timestep 2110000, total_error 0.004476
+Timestep 2110000
+Duration 1.367938
+mean reward (100 episodes) 13.700000
+best mean reward 13.760000
+episodes 1147
+exploration 0.075025
+learning_rate 0.000086
+timestep 2112000, total_error 0.006073
+timestep 2114000, total_error 0.003541
+timestep 2116000, total_error 0.006953
+timestep 2118000, total_error 0.003749
+timestep 2120000, total_error 0.014717
+Timestep 2120000
+Duration 1.363413
+mean reward (100 episodes) 14.020000
+best mean reward 14.020000
+episodes 1151
+exploration 0.074800
+learning_rate 0.000086
+timestep 2122000, total_error 0.002766
+timestep 2124000, total_error 0.008794
+timestep 2126000, total_error 0.001402
+timestep 2128000, total_error 0.011182
+timestep 2130000, total_error 0.003024
+updated target network
+Timestep 2130000
+Duration 1.364118
+mean reward (100 episodes) 14.230000
+best mean reward 14.230000
+episodes 1155
+exploration 0.074575
+learning_rate 0.000086
+timestep 2132000, total_error 0.003762
+timestep 2134000, total_error 0.005837
+timestep 2136000, total_error 0.009714
+timestep 2138000, total_error 0.016022
+timestep 2140000, total_error 0.000841
+Timestep 2140000
+Duration 1.365268
+mean reward (100 episodes) 14.310000
+best mean reward 14.360000
+episodes 1158
+exploration 0.074350
+learning_rate 0.000086
+timestep 2142000, total_error 0.005538
+timestep 2144000, total_error 0.002239
+timestep 2146000, total_error 0.001510
+timestep 2148000, total_error 0.010713
+timestep 2150000, total_error 0.005307
+Timestep 2150000
+Duration 1.363747
+mean reward (100 episodes) 14.350000
+best mean reward 14.410000
+episodes 1162
+exploration 0.074125
+learning_rate 0.000086
+timestep 2152000, total_error 0.002096
+timestep 2154000, total_error 0.005568
+timestep 2156000, total_error 0.003760
+timestep 2158000, total_error 0.008016
+timestep 2160000, total_error 0.001763
+Timestep 2160000
+Duration 1.364351
+mean reward (100 episodes) 14.420000
+best mean reward 14.460000
+episodes 1166
+exploration 0.073900
+learning_rate 0.000086
+timestep 2162000, total_error 0.001972
+timestep 2164000, total_error 0.008378
+timestep 2166000, total_error 0.001051
+timestep 2168000, total_error 0.003334
+timestep 2170000, total_error 0.000994
+updated target network
+Timestep 2170000
+Duration 1.363675
+mean reward (100 episodes) 14.260000
+best mean reward 14.480000
+episodes 1169
+exploration 0.073675
+learning_rate 0.000085
+timestep 2172000, total_error 0.005613
+timestep 2174000, total_error 0.009530
+timestep 2176000, total_error 0.012469
+timestep 2178000, total_error 0.025072
+timestep 2180000, total_error 0.002176
+Timestep 2180000
+Duration 1.363592
+mean reward (100 episodes) 14.080000
+best mean reward 14.480000
+episodes 1172
+exploration 0.073450
+learning_rate 0.000085
+timestep 2182000, total_error 0.013665
+timestep 2184000, total_error 0.003433
+timestep 2186000, total_error 0.016536
+timestep 2188000, total_error 0.001825
+timestep 2190000, total_error 0.001690
+Timestep 2190000
+Duration 1.363863
+mean reward (100 episodes) 14.010000
+best mean reward 14.480000
+episodes 1175
+exploration 0.073225
+learning_rate 0.000085
+timestep 2192000, total_error 0.002108
+timestep 2194000, total_error 0.005239
+timestep 2196000, total_error 0.029687
+timestep 2198000, total_error 0.002658
+timestep 2200000, total_error 0.006461
+Timestep 2200000
+Duration 1.363551
+mean reward (100 episodes) 13.830000
+best mean reward 14.480000
+episodes 1178
+exploration 0.073000
+learning_rate 0.000085
+saved snapshot: atari-2200000
+timestep 2202000, total_error 0.003580
+timestep 2204000, total_error 0.012455
+timestep 2206000, total_error 0.019583
+timestep 2208000, total_error 0.009796
+timestep 2210000, total_error 0.002252
+updated target network
+Timestep 2210000
+Duration 1.368859
+mean reward (100 episodes) 13.730000
+best mean reward 14.480000
+episodes 1181
+exploration 0.072775
+learning_rate 0.000085
+timestep 2212000, total_error 0.001848
+timestep 2214000, total_error 0.017030
+timestep 2216000, total_error 0.002364
+timestep 2218000, total_error 0.003251
+timestep 2220000, total_error 0.004012
+Timestep 2220000
+Duration 1.363157
+mean reward (100 episodes) 13.340000
+best mean reward 14.480000
+episodes 1184
+exploration 0.072550
+learning_rate 0.000085
+timestep 2222000, total_error 0.008954
+timestep 2224000, total_error 0.001908
+timestep 2226000, total_error 0.008789
+timestep 2228000, total_error 0.050931
+timestep 2230000, total_error 0.003945
+Timestep 2230000
+Duration 1.364346
+mean reward (100 episodes) 13.250000
+best mean reward 14.480000
+episodes 1188
+exploration 0.072325
+learning_rate 0.000085
+timestep 2232000, total_error 0.008785
+timestep 2234000, total_error 0.003329
+timestep 2236000, total_error 0.005457
+timestep 2238000, total_error 0.008513
+timestep 2240000, total_error 0.006335
+Timestep 2240000
+Duration 1.364494
+mean reward (100 episodes) 13.100000
+best mean reward 14.480000
+episodes 1191
+exploration 0.072100
+learning_rate 0.000085
+timestep 2242000, total_error 0.005098
+timestep 2244000, total_error 0.012867
+timestep 2246000, total_error 0.013875
+timestep 2248000, total_error 0.001361
+timestep 2250000, total_error 0.028645
+updated target network
+Timestep 2250000
+Duration 1.365765
+mean reward (100 episodes) 13.150000
+best mean reward 14.480000
+episodes 1195
+exploration 0.071875
+learning_rate 0.000084
+timestep 2252000, total_error 0.002413
+timestep 2254000, total_error 0.003901
+timestep 2256000, total_error 0.001335
+timestep 2258000, total_error 0.001533
+timestep 2260000, total_error 0.012152
+Timestep 2260000
+Duration 1.364542
+mean reward (100 episodes) 12.880000
+best mean reward 14.480000
+episodes 1197
+exploration 0.071650
+learning_rate 0.000084
+timestep 2262000, total_error 0.012572
+timestep 2264000, total_error 0.005251
+timestep 2266000, total_error 0.003480
+timestep 2268000, total_error 0.001959
+timestep 2270000, total_error 0.002940
+Timestep 2270000
+Duration 1.365098
+mean reward (100 episodes) 12.720000
+best mean reward 14.480000
+episodes 1200
+exploration 0.071425
+learning_rate 0.000084
+timestep 2272000, total_error 0.001531
+timestep 2274000, total_error 0.005327
+timestep 2276000, total_error 0.003297
+timestep 2278000, total_error 0.015170
+timestep 2280000, total_error 0.002546
+Timestep 2280000
+Duration 1.365536
+mean reward (100 episodes) 12.530000
+best mean reward 14.480000
+episodes 1203
+exploration 0.071200
+learning_rate 0.000084
+timestep 2282000, total_error 0.021035
+timestep 2284000, total_error 0.008588
+timestep 2286000, total_error 0.005542
+timestep 2288000, total_error 0.002553
+timestep 2290000, total_error 0.013218
+updated target network
+Timestep 2290000
+Duration 1.364409
+mean reward (100 episodes) 12.550000
+best mean reward 14.480000
+episodes 1206
+exploration 0.070975
+learning_rate 0.000084
+timestep 2292000, total_error 0.003623
+timestep 2294000, total_error 0.003254
+timestep 2296000, total_error 0.013349
+timestep 2298000, total_error 0.012742
+timestep 2300000, total_error 0.019091
+Timestep 2300000
+Duration 1.366584
+mean reward (100 episodes) 12.620000
+best mean reward 14.480000
+episodes 1210
+exploration 0.070750
+learning_rate 0.000084
+saved snapshot: atari-2300000
+timestep 2302000, total_error 0.009074
+timestep 2304000, total_error 0.002555
+timestep 2306000, total_error 0.003565
+timestep 2308000, total_error 0.002599
+timestep 2310000, total_error 0.006057
+Timestep 2310000
+Duration 1.368027
+mean reward (100 episodes) 12.490000
+best mean reward 14.480000
+episodes 1213
+exploration 0.070525
+learning_rate 0.000084
+timestep 2312000, total_error 0.005085
+timestep 2314000, total_error 0.007108
+timestep 2316000, total_error 0.004683
+timestep 2318000, total_error 0.003165
+timestep 2320000, total_error 0.003161
+Timestep 2320000
+Duration 1.367093
+mean reward (100 episodes) 12.490000
+best mean reward 14.480000
+episodes 1217
+exploration 0.070300
+learning_rate 0.000083
+timestep 2322000, total_error 0.001370
+timestep 2324000, total_error 0.018679
+timestep 2326000, total_error 0.007942
+timestep 2328000, total_error 0.001064
+timestep 2330000, total_error 0.005738
+updated target network
+Timestep 2330000
+Duration 1.365940
+mean reward (100 episodes) 12.420000
+best mean reward 14.480000
+episodes 1220
+exploration 0.070075
+learning_rate 0.000083
+timestep 2332000, total_error 0.005405
+timestep 2334000, total_error 0.004548
+timestep 2336000, total_error 0.001424
+timestep 2338000, total_error 0.002851
+timestep 2340000, total_error 0.003383
+Timestep 2340000
+Duration 1.364609
+mean reward (100 episodes) 12.250000
+best mean reward 14.480000
+episodes 1223
+exploration 0.069850
+learning_rate 0.000083
+timestep 2342000, total_error 0.003323
+timestep 2344000, total_error 0.001556
+timestep 2346000, total_error 0.003732
+timestep 2348000, total_error 0.002048
+timestep 2350000, total_error 0.012727
+Timestep 2350000
+Duration 1.365591
+mean reward (100 episodes) 11.990000
+best mean reward 14.480000
+episodes 1226
+exploration 0.069625
+learning_rate 0.000083
+timestep 2352000, total_error 0.015891
+timestep 2354000, total_error 0.002797
+timestep 2356000, total_error 0.005777
+timestep 2358000, total_error 0.003222
+timestep 2360000, total_error 0.002357
+Timestep 2360000
+Duration 1.366539
+mean reward (100 episodes) 11.640000
+best mean reward 14.480000
+episodes 1229
+exploration 0.069400
+learning_rate 0.000083
+timestep 2362000, total_error 0.003341
+timestep 2364000, total_error 0.002849
+timestep 2366000, total_error 0.004668
+timestep 2368000, total_error 0.018650
+timestep 2370000, total_error 0.003737
+updated target network
+Timestep 2370000
+Duration 1.366139
+mean reward (100 episodes) 11.580000
+best mean reward 14.480000
+episodes 1232
+exploration 0.069175
+learning_rate 0.000083
+timestep 2372000, total_error 0.006107
+timestep 2374000, total_error 0.004239
+timestep 2376000, total_error 0.003406
+timestep 2378000, total_error 0.001408
+timestep 2380000, total_error 0.004095
+Timestep 2380000
+Duration 1.366839
+mean reward (100 episodes) 11.410000
+best mean reward 14.480000
+episodes 1235
+exploration 0.068950
+learning_rate 0.000083
+timestep 2382000, total_error 0.012874
+timestep 2384000, total_error 0.004493
+timestep 2386000, total_error 0.000762
+timestep 2388000, total_error 0.003062
+timestep 2390000, total_error 0.004797
+Timestep 2390000
+Duration 1.365001
+mean reward (100 episodes) 11.160000
+best mean reward 14.480000
+episodes 1238
+exploration 0.068725
+learning_rate 0.000083
+timestep 2392000, total_error 0.008783
+timestep 2394000, total_error 0.000842
+timestep 2396000, total_error 0.003680
+timestep 2398000, total_error 0.006575
+timestep 2400000, total_error 0.002970
+Timestep 2400000
+Duration 1.365545
+mean reward (100 episodes) 11.050000
+best mean reward 14.480000
+episodes 1240
+exploration 0.068500
+learning_rate 0.000082
+saved snapshot: atari-2400000
+timestep 2402000, total_error 0.016421
+timestep 2404000, total_error 0.002104
+timestep 2406000, total_error 0.002995
+timestep 2408000, total_error 0.006762
+timestep 2410000, total_error 0.006600
+updated target network
+Timestep 2410000
+Duration 1.369961
+mean reward (100 episodes) 10.490000
+best mean reward 14.480000
+episodes 1243
+exploration 0.068275
+learning_rate 0.000082
+timestep 2412000, total_error 0.015808
+timestep 2414000, total_error 0.017152
+timestep 2416000, total_error 0.012024
+timestep 2418000, total_error 0.001449
+timestep 2420000, total_error 0.001927
+Timestep 2420000
+Duration 1.364761
+mean reward (100 episodes) 10.130000
+best mean reward 14.480000
+episodes 1245
+exploration 0.068050
+learning_rate 0.000082
+timestep 2422000, total_error 0.015199
+timestep 2424000, total_error 0.003870
+timestep 2426000, total_error 0.007387
+timestep 2428000, total_error 0.006106
+timestep 2430000, total_error 0.001405
+Timestep 2430000
+Duration 1.367556
+mean reward (100 episodes) 9.730000
+best mean reward 14.480000
+episodes 1248
+exploration 0.067825
+learning_rate 0.000082
+timestep 2432000, total_error 0.002370
+timestep 2434000, total_error 0.001875
+timestep 2436000, total_error 0.002986
+timestep 2438000, total_error 0.001704
+timestep 2440000, total_error 0.002122
+Timestep 2440000
+Duration 1.366123
+mean reward (100 episodes) 9.580000
+best mean reward 14.480000
+episodes 1250
+exploration 0.067600
+learning_rate 0.000082
+timestep 2442000, total_error 0.002135
+timestep 2444000, total_error 0.005492
+timestep 2446000, total_error 0.000985
+timestep 2448000, total_error 0.004982
+timestep 2450000, total_error 0.003747
+updated target network
+Timestep 2450000
+Duration 1.365487
+mean reward (100 episodes) 9.270000
+best mean reward 14.480000
+episodes 1253
+exploration 0.067375
+learning_rate 0.000082
+timestep 2452000, total_error 0.005329
+timestep 2454000, total_error 0.006335
+timestep 2456000, total_error 0.002493
+timestep 2458000, total_error 0.025041
+timestep 2460000, total_error 0.006115
+Timestep 2460000
+Duration 1.366054
+mean reward (100 episodes) 9.050000
+best mean reward 14.480000
+episodes 1255
+exploration 0.067150
+learning_rate 0.000082
+timestep 2462000, total_error 0.020584
+timestep 2464000, total_error 0.003018
+timestep 2466000, total_error 0.002521
+timestep 2468000, total_error 0.009354
+timestep 2470000, total_error 0.001610
+Timestep 2470000
+Duration 1.366037
+mean reward (100 episodes) 8.820000
+best mean reward 14.480000
+episodes 1257
+exploration 0.066925
+learning_rate 0.000082
+timestep 2472000, total_error 0.001363
+timestep 2474000, total_error 0.001042
+timestep 2476000, total_error 0.001446
+timestep 2478000, total_error 0.014425
+timestep 2480000, total_error 0.004438
+Timestep 2480000
+Duration 1.367187
+mean reward (100 episodes) 8.650000
+best mean reward 14.480000
+episodes 1260
+exploration 0.066700
+learning_rate 0.000082
+timestep 2482000, total_error 0.002424
+timestep 2484000, total_error 0.004049
+timestep 2486000, total_error 0.001951
+timestep 2488000, total_error 0.009382
+timestep 2490000, total_error 0.002679
+updated target network
+Timestep 2490000
+Duration 1.366232
+mean reward (100 episodes) 8.590000
+best mean reward 14.480000
+episodes 1262
+exploration 0.066475
+learning_rate 0.000081
+timestep 2492000, total_error 0.005200
+timestep 2494000, total_error 0.004847
+timestep 2496000, total_error 0.025984
+timestep 2498000, total_error 0.002781
+timestep 2500000, total_error 0.004518
+Timestep 2500000
+Duration 1.365678
+mean reward (100 episodes) 8.410000
+best mean reward 14.480000
+episodes 1265
+exploration 0.066250
+learning_rate 0.000081
+saved snapshot: atari-2500000
+timestep 2502000, total_error 0.008430
+timestep 2504000, total_error 0.001702
+timestep 2506000, total_error 0.002243
+timestep 2508000, total_error 0.004804
+timestep 2510000, total_error 0.015714
+Timestep 2510000
+Duration 1.370824
+mean reward (100 episodes) 8.220000
+best mean reward 14.480000
+episodes 1268
+exploration 0.066025
+learning_rate 0.000081
+timestep 2512000, total_error 0.007754
+timestep 2514000, total_error 0.002387
+timestep 2516000, total_error 0.005523
+timestep 2518000, total_error 0.001822
+timestep 2520000, total_error 0.002129
+Timestep 2520000
+Duration 1.365340
+mean reward (100 episodes) 8.170000
+best mean reward 14.480000
+episodes 1271
+exploration 0.065800
+learning_rate 0.000081
+timestep 2522000, total_error 0.002674
+timestep 2524000, total_error 0.000891
+timestep 2526000, total_error 0.002774
+timestep 2528000, total_error 0.002156
+timestep 2530000, total_error 0.002498
+updated target network
+Timestep 2530000
+Duration 1.366157
+mean reward (100 episodes) 8.090000
+best mean reward 14.480000
+episodes 1273
+exploration 0.065575
+learning_rate 0.000081
+timestep 2532000, total_error 0.006654
+timestep 2534000, total_error 0.008347
+timestep 2536000, total_error 0.001603
+timestep 2538000, total_error 0.004009
+timestep 2540000, total_error 0.021208
+Timestep 2540000
+Duration 1.366954
+mean reward (100 episodes) 8.000000
+best mean reward 14.480000
+episodes 1277
+exploration 0.065350
+learning_rate 0.000081
+timestep 2542000, total_error 0.001904
+timestep 2544000, total_error 0.001674
+timestep 2546000, total_error 0.001760
+timestep 2548000, total_error 0.004004
+timestep 2550000, total_error 0.003152
+Timestep 2550000
+Duration 1.366775
+mean reward (100 episodes) 8.030000
+best mean reward 14.480000
+episodes 1280
+exploration 0.065125
+learning_rate 0.000081
+timestep 2552000, total_error 0.001726
+timestep 2554000, total_error 0.015294
+timestep 2556000, total_error 0.000921
+timestep 2558000, total_error 0.001213
+timestep 2560000, total_error 0.002491
+Timestep 2560000
+Duration 1.366513
+mean reward (100 episodes) 7.930000
+best mean reward 14.480000
+episodes 1282
+exploration 0.064900
+learning_rate 0.000081
+timestep 2562000, total_error 0.004096
+timestep 2564000, total_error 0.002896
+timestep 2566000, total_error 0.002607
+timestep 2568000, total_error 0.008942
+timestep 2570000, total_error 0.001853
+updated target network
+Timestep 2570000
+Duration 1.367586
+mean reward (100 episodes) 8.200000
+best mean reward 14.480000
+episodes 1285
+exploration 0.064675
+learning_rate 0.000080
+timestep 2572000, total_error 0.009396
+timestep 2574000, total_error 0.002091
+timestep 2576000, total_error 0.002894
+timestep 2578000, total_error 0.002906
+timestep 2580000, total_error 0.006028
+Timestep 2580000
+Duration 1.366483
+mean reward (100 episodes) 8.060000
+best mean reward 14.480000
+episodes 1288
+exploration 0.064450
+learning_rate 0.000080
+timestep 2582000, total_error 0.000575
+timestep 2584000, total_error 0.002855
+timestep 2586000, total_error 0.014624
+timestep 2588000, total_error 0.001469
+timestep 2590000, total_error 0.002834
+Timestep 2590000
+Duration 1.366468
+mean reward (100 episodes) 8.050000
+best mean reward 14.480000
+episodes 1291
+exploration 0.064225
+learning_rate 0.000080
+timestep 2592000, total_error 0.011567
+timestep 2594000, total_error 0.001806
+timestep 2596000, total_error 0.002787
+timestep 2598000, total_error 0.002016
+timestep 2600000, total_error 0.003635
+Timestep 2600000
+Duration 1.368557
+mean reward (100 episodes) 7.950000
+best mean reward 14.480000
+episodes 1295
+exploration 0.064000
+learning_rate 0.000080
+saved snapshot: atari-2600000
+timestep 2602000, total_error 0.005571
+timestep 2604000, total_error 0.003429
+timestep 2606000, total_error 0.005094
+timestep 2608000, total_error 0.001397
+timestep 2610000, total_error 0.002198
+updated target network
+Timestep 2610000
+Duration 1.371618
+mean reward (100 episodes) 8.360000
+best mean reward 14.480000
+episodes 1298
+exploration 0.063775
+learning_rate 0.000080
+timestep 2612000, total_error 0.006343
+timestep 2614000, total_error 0.004008
+timestep 2616000, total_error 0.012004
+timestep 2618000, total_error 0.019275
+timestep 2620000, total_error 0.001981
+Timestep 2620000
+Duration 1.367303
+mean reward (100 episodes) 8.680000
+best mean reward 14.480000
+episodes 1301
+exploration 0.063550
+learning_rate 0.000080
+timestep 2622000, total_error 0.008316
+timestep 2624000, total_error 0.002770
+timestep 2626000, total_error 0.002314
+timestep 2628000, total_error 0.002721
+timestep 2630000, total_error 0.002141
+Timestep 2630000
+Duration 1.367576
+mean reward (100 episodes) 8.510000
+best mean reward 14.480000
+episodes 1305
+exploration 0.063325
+learning_rate 0.000080
+timestep 2632000, total_error 0.008223
+timestep 2634000, total_error 0.001307
+timestep 2636000, total_error 0.003218
+timestep 2638000, total_error 0.022897
+timestep 2640000, total_error 0.003330
+Timestep 2640000
+Duration 1.367704
+mean reward (100 episodes) 8.490000
+best mean reward 14.480000
+episodes 1308
+exploration 0.063100
+learning_rate 0.000080
+timestep 2642000, total_error 0.001822
+timestep 2644000, total_error 0.003342
+timestep 2646000, total_error 0.004313
+timestep 2648000, total_error 0.012928
+timestep 2650000, total_error 0.004105
+updated target network
+Timestep 2650000
+Duration 1.368159
+mean reward (100 episodes) 8.580000
+best mean reward 14.480000
+episodes 1312
+exploration 0.062875
+learning_rate 0.000079
+timestep 2652000, total_error 0.002504
+timestep 2654000, total_error 0.007385
+timestep 2656000, total_error 0.001459
+timestep 2658000, total_error 0.003893
+timestep 2660000, total_error 0.014639
+Timestep 2660000
+Duration 1.368190
+mean reward (100 episodes) 8.610000
+best mean reward 14.480000
+episodes 1315
+exploration 0.062650
+learning_rate 0.000079
+timestep 2662000, total_error 0.001323
+timestep 2664000, total_error 0.001322
+timestep 2666000, total_error 0.004795
+timestep 2668000, total_error 0.005052
+timestep 2670000, total_error 0.006460
+Timestep 2670000
+Duration 1.368027
+mean reward (100 episodes) 8.620000
+best mean reward 14.480000
+episodes 1319
+exploration 0.062425
+learning_rate 0.000079
+timestep 2672000, total_error 0.004346
+timestep 2674000, total_error 0.004472
+timestep 2676000, total_error 0.001112
+timestep 2678000, total_error 0.005717
+timestep 2680000, total_error 0.001673
+Timestep 2680000
+Duration 1.366922
+mean reward (100 episodes) 8.830000
+best mean reward 14.480000
+episodes 1323
+exploration 0.062200
+learning_rate 0.000079
+timestep 2682000, total_error 0.027127
+timestep 2684000, total_error 0.002223
+timestep 2686000, total_error 0.002200
+timestep 2688000, total_error 0.001797
+timestep 2690000, total_error 0.001072
+updated target network
+Timestep 2690000
+Duration 1.368097
+mean reward (100 episodes) 9.000000
+best mean reward 14.480000
+episodes 1326
+exploration 0.061975
+learning_rate 0.000079
+timestep 2692000, total_error 0.002768
+timestep 2694000, total_error 0.003325
+timestep 2696000, total_error 0.005160
+timestep 2698000, total_error 0.002205
+timestep 2700000, total_error 0.003091
+Timestep 2700000
+Duration 1.367633
+mean reward (100 episodes) 9.410000
+best mean reward 14.480000
+episodes 1330
+exploration 0.061750
+learning_rate 0.000079
+saved snapshot: atari-2700000
+timestep 2702000, total_error 0.002348
+timestep 2704000, total_error 0.004221
+timestep 2706000, total_error 0.011700
+timestep 2708000, total_error 0.001900
+timestep 2710000, total_error 0.002056
+Timestep 2710000
+Duration 1.371629
+mean reward (100 episodes) 9.670000
+best mean reward 14.480000
+episodes 1334
+exploration 0.061525
+learning_rate 0.000079
+timestep 2712000, total_error 0.001471
+timestep 2714000, total_error 0.011300
+timestep 2716000, total_error 0.001561
+timestep 2718000, total_error 0.014452
+timestep 2720000, total_error 0.002187
+Timestep 2720000
+Duration 1.366968
+mean reward (100 episodes) 10.290000
+best mean reward 14.480000
+episodes 1339
+exploration 0.061300
+learning_rate 0.000079
+timestep 2722000, total_error 0.004313
+timestep 2724000, total_error 0.003104
+timestep 2726000, total_error 0.004995
+timestep 2728000, total_error 0.024167
+timestep 2730000, total_error 0.003726
+updated target network
+Timestep 2730000
+Duration 1.374634
+mean reward (100 episodes) 11.240000
+best mean reward 14.480000
+episodes 1344
+exploration 0.061075
+learning_rate 0.000078
+timestep 2732000, total_error 0.008973
+timestep 2734000, total_error 0.002881
+timestep 2736000, total_error 0.002835
+timestep 2738000, total_error 0.004089
+timestep 2740000, total_error 0.012154
+Timestep 2740000
+Duration 1.366819
+mean reward (100 episodes) 11.860000
+best mean reward 14.480000
+episodes 1348
+exploration 0.060850
+learning_rate 0.000078
+timestep 2742000, total_error 0.039080
+timestep 2744000, total_error 0.004350
+timestep 2746000, total_error 0.010065
+timestep 2748000, total_error 0.002370
+timestep 2750000, total_error 0.001669
+Timestep 2750000
+Duration 1.369050
+mean reward (100 episodes) 12.280000
+best mean reward 14.480000
+episodes 1352
+exploration 0.060625
+learning_rate 0.000078
+timestep 2752000, total_error 0.001946
+timestep 2754000, total_error 0.003279
+timestep 2756000, total_error 0.001274
+timestep 2758000, total_error 0.004588
+timestep 2760000, total_error 0.011149
+Timestep 2760000
+Duration 1.368762
+mean reward (100 episodes) 12.770000
+best mean reward 14.480000
+episodes 1356
+exploration 0.060400
+learning_rate 0.000078
+timestep 2762000, total_error 0.030465
+timestep 2764000, total_error 0.001589
+timestep 2766000, total_error 0.003782
+timestep 2768000, total_error 0.008935
+timestep 2770000, total_error 0.002562
+updated target network
+Timestep 2770000
+Duration 1.368613
+mean reward (100 episodes) 13.270000
+best mean reward 14.480000
+episodes 1361
+exploration 0.060175
+learning_rate 0.000078
+timestep 2772000, total_error 0.007811
+timestep 2774000, total_error 0.025330
+timestep 2776000, total_error 0.004558
+timestep 2778000, total_error 0.001875
+timestep 2780000, total_error 0.001391
+Timestep 2780000
+Duration 1.366989
+mean reward (100 episodes) 13.420000
+best mean reward 14.480000
+episodes 1364
+exploration 0.059950
+learning_rate 0.000078
+timestep 2782000, total_error 0.002638
+timestep 2784000, total_error 0.001294
+timestep 2786000, total_error 0.004129
+timestep 2788000, total_error 0.001931
+timestep 2790000, total_error 0.005372
+Timestep 2790000
+Duration 1.368896
+mean reward (100 episodes) 13.610000
+best mean reward 14.480000
+episodes 1368
+exploration 0.059725
+learning_rate 0.000078
+timestep 2792000, total_error 0.004391
+timestep 2794000, total_error 0.029473
+timestep 2796000, total_error 0.006589
+timestep 2798000, total_error 0.003410
+timestep 2800000, total_error 0.002040
+Timestep 2800000
+Duration 1.367799
+mean reward (100 episodes) 13.980000
+best mean reward 14.480000
+episodes 1371
+exploration 0.059500
+learning_rate 0.000077
+saved snapshot: atari-2800000
+timestep 2802000, total_error 0.047180
+timestep 2804000, total_error 0.001421
+timestep 2806000, total_error 0.004392
+timestep 2808000, total_error 0.007079
+timestep 2810000, total_error 0.000623
+updated target network
+Timestep 2810000
+Duration 1.371636
+mean reward (100 episodes) 14.060000
+best mean reward 14.480000
+episodes 1374
+exploration 0.059275
+learning_rate 0.000077
+timestep 2812000, total_error 0.004927
+timestep 2814000, total_error 0.004072
+timestep 2816000, total_error 0.001601
+timestep 2818000, total_error 0.001310
+timestep 2820000, total_error 0.003542
+Timestep 2820000
+Duration 1.369277
+mean reward (100 episodes) 14.290000
+best mean reward 14.480000
+episodes 1378
+exploration 0.059050
+learning_rate 0.000077
+timestep 2822000, total_error 0.005881
+timestep 2824000, total_error 0.001707
+timestep 2826000, total_error 0.020529
+timestep 2828000, total_error 0.002162
+timestep 2830000, total_error 0.009850
+Timestep 2830000
+Duration 1.369247
+mean reward (100 episodes) 14.520000
+best mean reward 14.520000
+episodes 1382
+exploration 0.058825
+learning_rate 0.000077
+timestep 2832000, total_error 0.002134
+timestep 2834000, total_error 0.001666
+timestep 2836000, total_error 0.001615
+timestep 2838000, total_error 0.007006
+timestep 2840000, total_error 0.002089
+Timestep 2840000
+Duration 1.369061
+mean reward (100 episodes) 14.590000
+best mean reward 14.590000
+episodes 1386
+exploration 0.058600
+learning_rate 0.000077
+timestep 2842000, total_error 0.000904
+timestep 2844000, total_error 0.003746
+timestep 2846000, total_error 0.000969
+timestep 2848000, total_error 0.013286
+timestep 2850000, total_error 0.001272
+updated target network
+Timestep 2850000
+Duration 1.368955
+mean reward (100 episodes) 14.720000
+best mean reward 14.720000
+episodes 1389
+exploration 0.058375
+learning_rate 0.000077
+timestep 2852000, total_error 0.009013
+timestep 2854000, total_error 0.002296
+timestep 2856000, total_error 0.007337
+timestep 2858000, total_error 0.002888
+timestep 2860000, total_error 0.001751
+Timestep 2860000
+Duration 1.368121
+mean reward (100 episodes) 14.820000
+best mean reward 14.820000
+episodes 1394
+exploration 0.058150
+learning_rate 0.000077
+timestep 2862000, total_error 0.002929
+timestep 2864000, total_error 0.005581
+timestep 2866000, total_error 0.018355
+timestep 2868000, total_error 0.004507
+timestep 2870000, total_error 0.002555
+Timestep 2870000
+Duration 1.369043
+mean reward (100 episodes) 15.070000
+best mean reward 15.070000
+episodes 1399
+exploration 0.057925
+learning_rate 0.000077
+timestep 2872000, total_error 0.004833
+timestep 2874000, total_error 0.017591
+timestep 2876000, total_error 0.002443
+timestep 2878000, total_error 0.002115
+timestep 2880000, total_error 0.001302
+Timestep 2880000
+Duration 1.374124
+mean reward (100 episodes) 15.210000
+best mean reward 15.210000
+episodes 1403
+exploration 0.057700
+learning_rate 0.000077
+timestep 2882000, total_error 0.007474
+timestep 2884000, total_error 0.005369
+timestep 2886000, total_error 0.018738
+timestep 2888000, total_error 0.002909
+timestep 2890000, total_error 0.001758
+updated target network
+Timestep 2890000
+Duration 1.368687
+mean reward (100 episodes) 15.450000
+best mean reward 15.450000
+episodes 1407
+exploration 0.057475
+learning_rate 0.000076
+timestep 2892000, total_error 0.004555
+timestep 2894000, total_error 0.004540
+timestep 2896000, total_error 0.001445
+timestep 2898000, total_error 0.019451
+timestep 2900000, total_error 0.001541
+Timestep 2900000
+Duration 1.368288
+mean reward (100 episodes) 15.450000
+best mean reward 15.470000
+episodes 1411
+exploration 0.057250
+learning_rate 0.000076
+saved snapshot: atari-2900000
+timestep 2902000, total_error 0.002889
+timestep 2904000, total_error 0.001849
+timestep 2906000, total_error 0.003553
+timestep 2908000, total_error 0.003899
+timestep 2910000, total_error 0.002768
+Timestep 2910000
+Duration 1.372908
+mean reward (100 episodes) 15.610000
+best mean reward 15.610000
+episodes 1415
+exploration 0.057025
+learning_rate 0.000076
+timestep 2912000, total_error 0.012362
+timestep 2914000, total_error 0.028434
+timestep 2916000, total_error 0.011146
+timestep 2918000, total_error 0.012797
+timestep 2920000, total_error 0.003864
+Timestep 2920000
+Duration 1.369753
+mean reward (100 episodes) 15.830000
+best mean reward 15.830000
+episodes 1420
+exploration 0.056800
+learning_rate 0.000076
+timestep 2922000, total_error 0.002793
+timestep 2924000, total_error 0.007176
+timestep 2926000, total_error 0.001770
+timestep 2928000, total_error 0.002843
+timestep 2930000, total_error 0.002274
+updated target network
+Timestep 2930000
+Duration 1.367627
+mean reward (100 episodes) 15.980000
+best mean reward 15.980000
+episodes 1424
+exploration 0.056575
+learning_rate 0.000076
+timestep 2932000, total_error 0.002836
+timestep 2934000, total_error 0.002078
+timestep 2936000, total_error 0.003795
+timestep 2938000, total_error 0.005414
+timestep 2940000, total_error 0.002053
+Timestep 2940000
+Duration 1.370035
+mean reward (100 episodes) 16.230000
+best mean reward 16.230000
+episodes 1429
+exploration 0.056350
+learning_rate 0.000076
+timestep 2942000, total_error 0.004099
+timestep 2944000, total_error 0.001408
+timestep 2946000, total_error 0.005367
+timestep 2948000, total_error 0.000820
+timestep 2950000, total_error 0.002948
+Timestep 2950000
+Duration 1.369792
+mean reward (100 episodes) 16.220000
+best mean reward 16.300000
+episodes 1434
+exploration 0.056125
+learning_rate 0.000076
+timestep 2952000, total_error 0.001082
+timestep 2954000, total_error 0.003498
+timestep 2956000, total_error 0.005040
+timestep 2958000, total_error 0.001908
+timestep 2960000, total_error 0.017762
+Timestep 2960000
+Duration 1.368627
+mean reward (100 episodes) 16.160000
+best mean reward 16.300000
+episodes 1439
+exploration 0.055900
+learning_rate 0.000076
+timestep 2962000, total_error 0.002321
+timestep 2964000, total_error 0.020241
+timestep 2966000, total_error 0.003968
+timestep 2968000, total_error 0.003564
+timestep 2970000, total_error 0.013251
+updated target network
+Timestep 2970000
+Duration 1.369311
+mean reward (100 episodes) 16.120000
+best mean reward 16.300000
+episodes 1443
+exploration 0.055675
+learning_rate 0.000075
+timestep 2972000, total_error 0.002793
+timestep 2974000, total_error 0.001651
+timestep 2976000, total_error 0.001837
+timestep 2978000, total_error 0.044872
+timestep 2980000, total_error 0.001002
+Timestep 2980000
+Duration 1.368351
+mean reward (100 episodes) 15.970000
+best mean reward 16.300000
+episodes 1448
+exploration 0.055450
+learning_rate 0.000075
+timestep 2982000, total_error 0.001432
+timestep 2984000, total_error 0.007116
+timestep 2986000, total_error 0.001376
+timestep 2988000, total_error 0.002947
+timestep 2990000, total_error 0.030627
+Timestep 2990000
+Duration 1.369482
+mean reward (100 episodes) 16.030000
+best mean reward 16.300000
+episodes 1452
+exploration 0.055225
+learning_rate 0.000075
+timestep 2992000, total_error 0.001964
+timestep 2994000, total_error 0.000872
+timestep 2996000, total_error 0.002435
+timestep 2998000, total_error 0.002433
+timestep 3000000, total_error 0.003232
+Timestep 3000000
+Duration 1.370891
+mean reward (100 episodes) 15.970000
+best mean reward 16.300000
+episodes 1456
+exploration 0.055000
+learning_rate 0.000075
+saved snapshot: atari-3000000
+timestep 3002000, total_error 0.018109
+timestep 3004000, total_error 0.001425
+timestep 3006000, total_error 0.002099
+timestep 3008000, total_error 0.002293
+timestep 3010000, total_error 0.004836
+updated target network
+Timestep 3010000
+Duration 1.372512
+mean reward (100 episodes) 15.990000
+best mean reward 16.300000
+episodes 1461
+exploration 0.054775
+learning_rate 0.000075
+timestep 3012000, total_error 0.007369
+timestep 3014000, total_error 0.004843
+timestep 3016000, total_error 0.004748
+timestep 3018000, total_error 0.005693
+timestep 3020000, total_error 0.008803
+Timestep 3020000
+Duration 1.368608
+mean reward (100 episodes) 16.050000
+best mean reward 16.300000
+episodes 1465
+exploration 0.054550
+learning_rate 0.000075
+timestep 3022000, total_error 0.003130
+timestep 3024000, total_error 0.003270
+timestep 3026000, total_error 0.011426
+timestep 3028000, total_error 0.024459
+timestep 3030000, total_error 0.008198
+Timestep 3030000
+Duration 1.369333
+mean reward (100 episodes) 16.020000
+best mean reward 16.300000
+episodes 1469
+exploration 0.054325
+learning_rate 0.000075
+timestep 3032000, total_error 0.001622
+timestep 3034000, total_error 0.008367
+timestep 3036000, total_error 0.001076
+timestep 3038000, total_error 0.002899
+timestep 3040000, total_error 0.001354
+Timestep 3040000
+Duration 1.369350
+mean reward (100 episodes) 16.260000
+best mean reward 16.300000
+episodes 1473
+exploration 0.054100
+learning_rate 0.000074
+timestep 3042000, total_error 0.002438
+timestep 3044000, total_error 0.009315
+timestep 3046000, total_error 0.001449
+timestep 3048000, total_error 0.003175
+timestep 3050000, total_error 0.007686
+updated target network
+Timestep 3050000
+Duration 1.370550
+mean reward (100 episodes) 16.310000
+best mean reward 16.310000
+episodes 1478
+exploration 0.053875
+learning_rate 0.000074
+timestep 3052000, total_error 0.002897
+timestep 3054000, total_error 0.002590
+timestep 3056000, total_error 0.004229
+timestep 3058000, total_error 0.008646
+timestep 3060000, total_error 0.002843
+Timestep 3060000
+Duration 1.375458
+mean reward (100 episodes) 16.450000
+best mean reward 16.450000
+episodes 1483
+exploration 0.053650
+learning_rate 0.000074
+timestep 3062000, total_error 0.002239
+timestep 3064000, total_error 0.003926
+timestep 3066000, total_error 0.003266
+timestep 3068000, total_error 0.002696
+timestep 3070000, total_error 0.000895
+Timestep 3070000
+Duration 1.369870
+mean reward (100 episodes) 16.690000
+best mean reward 16.690000
+episodes 1488
+exploration 0.053425
+learning_rate 0.000074
+timestep 3072000, total_error 0.023502
+timestep 3074000, total_error 0.006780
+timestep 3076000, total_error 0.003824
+timestep 3078000, total_error 0.008753
+timestep 3080000, total_error 0.003529
+Timestep 3080000
+Duration 1.369734
+mean reward (100 episodes) 16.850000
+best mean reward 16.890000
+episodes 1493
+exploration 0.053200
+learning_rate 0.000074
+timestep 3082000, total_error 0.002764
+timestep 3084000, total_error 0.004894
+timestep 3086000, total_error 0.004755
+timestep 3088000, total_error 0.006661
+timestep 3090000, total_error 0.003702
+updated target network
+Timestep 3090000
+Duration 1.370074
+mean reward (100 episodes) 16.860000
+best mean reward 16.890000
+episodes 1498
+exploration 0.052975
+learning_rate 0.000074
+timestep 3092000, total_error 0.002745
+timestep 3094000, total_error 0.023252
+timestep 3096000, total_error 0.004031
+timestep 3098000, total_error 0.003323
+timestep 3100000, total_error 0.006308
+Timestep 3100000
+Duration 1.370340
+mean reward (100 episodes) 16.890000
+best mean reward 16.900000
+episodes 1502
+exploration 0.052750
+learning_rate 0.000074
+saved snapshot: atari-3100000
+timestep 3102000, total_error 0.001414
+timestep 3104000, total_error 0.004814
+timestep 3106000, total_error 0.006780
+timestep 3108000, total_error 0.002217
+timestep 3110000, total_error 0.003264
+Timestep 3110000
+Duration 1.373103
+mean reward (100 episodes) 16.920000
+best mean reward 16.920000
+episodes 1507
+exploration 0.052525
+learning_rate 0.000074
+timestep 3112000, total_error 0.004646
+timestep 3114000, total_error 0.006179
+timestep 3116000, total_error 0.001350
+timestep 3118000, total_error 0.003446
+timestep 3120000, total_error 0.002714
+Timestep 3120000
+Duration 1.369481
+mean reward (100 episodes) 17.080000
+best mean reward 17.100000
+episodes 1512
+exploration 0.052300
+learning_rate 0.000073
+timestep 3122000, total_error 0.018944
+timestep 3124000, total_error 0.001389
+timestep 3126000, total_error 0.002300
+timestep 3128000, total_error 0.006939
+timestep 3130000, total_error 0.004673
+updated target network
+Timestep 3130000
+Duration 1.369736
+mean reward (100 episodes) 17.080000
+best mean reward 17.120000
+episodes 1517
+exploration 0.052075
+learning_rate 0.000073
+timestep 3132000, total_error 0.006787
+timestep 3134000, total_error 0.004837
+timestep 3136000, total_error 0.003168
+timestep 3138000, total_error 0.004729
+timestep 3140000, total_error 0.009563
+Timestep 3140000
+Duration 1.375784
+mean reward (100 episodes) 17.120000
+best mean reward 17.140000
+episodes 1522
+exploration 0.051850
+learning_rate 0.000073
+timestep 3142000, total_error 0.003672
+timestep 3144000, total_error 0.001504
+timestep 3146000, total_error 0.004740
+timestep 3148000, total_error 0.004050
+timestep 3150000, total_error 0.004401
+Timestep 3150000
+Duration 1.369691
+mean reward (100 episodes) 17.210000
+best mean reward 17.240000
+episodes 1527
+exploration 0.051625
+learning_rate 0.000073
+timestep 3152000, total_error 0.002174
+timestep 3154000, total_error 0.017060
+timestep 3156000, total_error 0.003052
+timestep 3158000, total_error 0.003865
+timestep 3160000, total_error 0.000824
+Timestep 3160000
+Duration 1.370297
+mean reward (100 episodes) 17.170000
+best mean reward 17.240000
+episodes 1532
+exploration 0.051400
+learning_rate 0.000073
+timestep 3162000, total_error 0.004302
+timestep 3164000, total_error 0.004235
+timestep 3166000, total_error 0.001034
+timestep 3168000, total_error 0.000912
+timestep 3170000, total_error 0.001984
+updated target network
+Timestep 3170000
+Duration 1.369443
+mean reward (100 episodes) 17.140000
+best mean reward 17.240000
+episodes 1536
+exploration 0.051175
+learning_rate 0.000073
+timestep 3172000, total_error 0.003142
+timestep 3174000, total_error 0.010778
+timestep 3176000, total_error 0.005214
+timestep 3178000, total_error 0.004131
+timestep 3180000, total_error 0.010752
+Timestep 3180000
+Duration 1.371197
+mean reward (100 episodes) 17.190000
+best mean reward 17.240000
+episodes 1542
+exploration 0.050950
+learning_rate 0.000073
+timestep 3182000, total_error 0.002394
+timestep 3184000, total_error 0.001827
+timestep 3186000, total_error 0.001857
+timestep 3188000, total_error 0.001753
+timestep 3190000, total_error 0.003122
+Timestep 3190000
+Duration 1.371775
+mean reward (100 episodes) 17.330000
+best mean reward 17.350000
+episodes 1547
+exploration 0.050725
+learning_rate 0.000073
+timestep 3192000, total_error 0.005291
+timestep 3194000, total_error 0.001630
+timestep 3196000, total_error 0.026221
+timestep 3198000, total_error 0.005858
+timestep 3200000, total_error 0.004707
+Timestep 3200000
+Duration 1.370135
+mean reward (100 episodes) 17.310000
+best mean reward 17.350000
+episodes 1551
+exploration 0.050500
+learning_rate 0.000073
+saved snapshot: atari-3200000
+timestep 3202000, total_error 0.004974
+timestep 3204000, total_error 0.003135
+timestep 3206000, total_error 0.002464
+timestep 3208000, total_error 0.007380
+timestep 3210000, total_error 0.003200
+updated target network
+Timestep 3210000
+Duration 1.374369
+mean reward (100 episodes) 17.400000
+best mean reward 17.430000
+episodes 1556
+exploration 0.050275
+learning_rate 0.000072
+timestep 3212000, total_error 0.001935
+timestep 3214000, total_error 0.004873
+timestep 3216000, total_error 0.023682
+timestep 3218000, total_error 0.000729
+timestep 3220000, total_error 0.007153
+Timestep 3220000
+Duration 1.370805
+mean reward (100 episodes) 17.450000
+best mean reward 17.480000
+episodes 1561
+exploration 0.050050
+learning_rate 0.000072
+timestep 3222000, total_error 0.002993
+timestep 3224000, total_error 0.004285
+timestep 3226000, total_error 0.005893
+timestep 3228000, total_error 0.010273
+timestep 3230000, total_error 0.003763
+Timestep 3230000
+Duration 1.370497
+mean reward (100 episodes) 17.700000
+best mean reward 17.700000
+episodes 1566
+exploration 0.049825
+learning_rate 0.000072
+timestep 3232000, total_error 0.001971
+timestep 3234000, total_error 0.001155
+timestep 3236000, total_error 0.004458
+timestep 3238000, total_error 0.005382
+timestep 3240000, total_error 0.002834
+Timestep 3240000
+Duration 1.373528
+mean reward (100 episodes) 17.790000
+best mean reward 17.790000
+episodes 1571
+exploration 0.049600
+learning_rate 0.000072
+timestep 3242000, total_error 0.001384
+timestep 3244000, total_error 0.002596
+timestep 3246000, total_error 0.001179
+timestep 3248000, total_error 0.003178
+timestep 3250000, total_error 0.001442
+updated target network
+Timestep 3250000
+Duration 1.371535
+mean reward (100 episodes) 17.920000
+best mean reward 17.920000
+episodes 1577
+exploration 0.049375
+learning_rate 0.000072
+timestep 3252000, total_error 0.002117
+timestep 3254000, total_error 0.024798
+timestep 3256000, total_error 0.001989
+timestep 3258000, total_error 0.001086
+timestep 3260000, total_error 0.008811
+Timestep 3260000
+Duration 1.370543
+mean reward (100 episodes) 17.940000
+best mean reward 17.950000
+episodes 1582
+exploration 0.049150
+learning_rate 0.000072
+timestep 3262000, total_error 0.002702
+timestep 3264000, total_error 0.003894
+timestep 3266000, total_error 0.004664
+timestep 3268000, total_error 0.003025
+timestep 3270000, total_error 0.006276
+Timestep 3270000
+Duration 1.371902
+mean reward (100 episodes) 17.980000
+best mean reward 17.990000
+episodes 1586
+exploration 0.048925
+learning_rate 0.000072
+timestep 3272000, total_error 0.002554
+timestep 3274000, total_error 0.009065
+timestep 3276000, total_error 0.002444
+timestep 3278000, total_error 0.000981
+timestep 3280000, total_error 0.000924
+Timestep 3280000
+Duration 1.372282
+mean reward (100 episodes) 17.930000
+best mean reward 17.990000
+episodes 1592
+exploration 0.048700
+learning_rate 0.000072
+timestep 3282000, total_error 0.005574
+timestep 3284000, total_error 0.001657
+timestep 3286000, total_error 0.015680
+timestep 3288000, total_error 0.000905
+timestep 3290000, total_error 0.006544
+updated target network
+Timestep 3290000
+Duration 1.371347
+mean reward (100 episodes) 17.950000
+best mean reward 17.990000
+episodes 1597
+exploration 0.048475
+learning_rate 0.000071
+timestep 3292000, total_error 0.005294
+timestep 3294000, total_error 0.001319
+timestep 3296000, total_error 0.001208
+timestep 3298000, total_error 0.012569
+timestep 3300000, total_error 0.003401
+Timestep 3300000
+Duration 1.370984
+mean reward (100 episodes) 17.970000
+best mean reward 18.000000
+episodes 1602
+exploration 0.048250
+learning_rate 0.000071
+saved snapshot: atari-3300000
+timestep 3302000, total_error 0.001688
+timestep 3304000, total_error 0.002472
+timestep 3306000, total_error 0.001505
+timestep 3308000, total_error 0.001944
+timestep 3310000, total_error 0.002574
+Timestep 3310000
+Duration 1.374786
+mean reward (100 episodes) 17.990000
+best mean reward 18.000000
+episodes 1607
+exploration 0.048025
+learning_rate 0.000071
+timestep 3312000, total_error 0.001567
+timestep 3314000, total_error 0.002942
+timestep 3316000, total_error 0.002740
+timestep 3318000, total_error 0.001178
+timestep 3320000, total_error 0.000975
+Timestep 3320000
+Duration 1.372269
+mean reward (100 episodes) 17.890000
+best mean reward 18.000000
+episodes 1612
+exploration 0.047800
+learning_rate 0.000071
+timestep 3322000, total_error 0.001263
+timestep 3324000, total_error 0.001315
+timestep 3326000, total_error 0.002216
+timestep 3328000, total_error 0.001924
+timestep 3330000, total_error 0.001175
+updated target network
+Timestep 3330000
+Duration 1.371514
+mean reward (100 episodes) 17.970000
+best mean reward 18.000000
+episodes 1617
+exploration 0.047575
+learning_rate 0.000071
+timestep 3332000, total_error 0.003335
+timestep 3334000, total_error 0.004129
+timestep 3336000, total_error 0.001239
+timestep 3338000, total_error 0.001532
+timestep 3340000, total_error 0.002430
+Timestep 3340000
+Duration 1.371360
+mean reward (100 episodes) 17.950000
+best mean reward 18.000000
+episodes 1622
+exploration 0.047350
+learning_rate 0.000071
+timestep 3342000, total_error 0.003506
+timestep 3344000, total_error 0.003473
+timestep 3346000, total_error 0.001264
+timestep 3348000, total_error 0.004052
+timestep 3350000, total_error 0.002495
+Timestep 3350000
+Duration 1.372369
+mean reward (100 episodes) 18.080000
+best mean reward 18.080000
+episodes 1627
+exploration 0.047125
+learning_rate 0.000071
+timestep 3352000, total_error 0.002025
+timestep 3354000, total_error 0.001321
+timestep 3356000, total_error 0.001390
+timestep 3358000, total_error 0.003629
+timestep 3360000, total_error 0.010744
+Timestep 3360000
+Duration 1.372784
+mean reward (100 episodes) 18.200000
+best mean reward 18.200000
+episodes 1633
+exploration 0.046900
+learning_rate 0.000071
+timestep 3362000, total_error 0.007417
+timestep 3364000, total_error 0.001860
+timestep 3366000, total_error 0.000603
+timestep 3368000, total_error 0.008395
+timestep 3370000, total_error 0.001605
+updated target network
+Timestep 3370000
+Duration 1.371958
+mean reward (100 episodes) 18.230000
+best mean reward 18.290000
+episodes 1638
+exploration 0.046675
+learning_rate 0.000070
+timestep 3372000, total_error 0.003220
+timestep 3374000, total_error 0.003280
+timestep 3376000, total_error 0.002360
+timestep 3378000, total_error 0.001912
+timestep 3380000, total_error 0.001411
+Timestep 3380000
+Duration 1.373179
+mean reward (100 episodes) 18.310000
+best mean reward 18.310000
+episodes 1644
+exploration 0.046450
+learning_rate 0.000070
+timestep 3382000, total_error 0.011227
+timestep 3384000, total_error 0.001680
+timestep 3386000, total_error 0.002320
+timestep 3388000, total_error 0.002839
+timestep 3390000, total_error 0.002173
+Timestep 3390000
+Duration 1.371355
+mean reward (100 episodes) 18.400000
+best mean reward 18.400000
+episodes 1649
+exploration 0.046225
+learning_rate 0.000070
+timestep 3392000, total_error 0.001025
+timestep 3394000, total_error 0.002236
+timestep 3396000, total_error 0.001117
+timestep 3398000, total_error 0.001235
+timestep 3400000, total_error 0.001010
+Timestep 3400000
+Duration 1.371946
+mean reward (100 episodes) 18.520000
+best mean reward 18.520000
+episodes 1654
+exploration 0.046000
+learning_rate 0.000070
+saved snapshot: atari-3400000
+timestep 3402000, total_error 0.003087
+timestep 3404000, total_error 0.013074
+timestep 3406000, total_error 0.013067
+timestep 3408000, total_error 0.001364
+timestep 3410000, total_error 0.002978
+updated target network
+Timestep 3410000
+Duration 1.376527
+mean reward (100 episodes) 18.600000
+best mean reward 18.620000
+episodes 1659
+exploration 0.045775
+learning_rate 0.000070
+timestep 3412000, total_error 0.001428
+timestep 3414000, total_error 0.001385
+timestep 3416000, total_error 0.002440
+timestep 3418000, total_error 0.005403
+timestep 3420000, total_error 0.003756
+Timestep 3420000
+Duration 1.372607
+mean reward (100 episodes) 18.670000
+best mean reward 18.670000
+episodes 1664
+exploration 0.045550
+learning_rate 0.000070
+timestep 3422000, total_error 0.006808
+timestep 3424000, total_error 0.001005
+timestep 3426000, total_error 0.000924
+timestep 3428000, total_error 0.001154
+timestep 3430000, total_error 0.005456
+Timestep 3430000
+Duration 1.379920
+mean reward (100 episodes) 18.750000
+best mean reward 18.750000
+episodes 1670
+exploration 0.045325
+learning_rate 0.000070
+timestep 3432000, total_error 0.011503
+timestep 3434000, total_error 0.001715
+timestep 3436000, total_error 0.005006
+timestep 3438000, total_error 0.002450
+timestep 3440000, total_error 0.006434
+Timestep 3440000
+Duration 1.371728
+mean reward (100 episodes) 18.840000
+best mean reward 18.840000
+episodes 1675
+exploration 0.045100
+learning_rate 0.000070
+timestep 3442000, total_error 0.001036
+timestep 3444000, total_error 0.001022
+timestep 3446000, total_error 0.002143
+timestep 3448000, total_error 0.005887
+timestep 3450000, total_error 0.001335
+updated target network
+Timestep 3450000
+Duration 1.372683
+mean reward (100 episodes) 18.850000
+best mean reward 18.850000
+episodes 1681
+exploration 0.044875
+learning_rate 0.000069
+timestep 3452000, total_error 0.001394
+timestep 3454000, total_error 0.001076
+timestep 3456000, total_error 0.001433
+timestep 3458000, total_error 0.003168
+timestep 3460000, total_error 0.003190
+Timestep 3460000
+Duration 1.372354
+mean reward (100 episodes) 18.950000
+best mean reward 18.950000
+episodes 1686
+exploration 0.044650
+learning_rate 0.000069
+timestep 3462000, total_error 0.001428
+timestep 3464000, total_error 0.001330
+timestep 3466000, total_error 0.000526
+timestep 3468000, total_error 0.000826
+timestep 3470000, total_error 0.001476
+Timestep 3470000
+Duration 1.372922
+mean reward (100 episodes) 19.050000
+best mean reward 19.050000
+episodes 1692
+exploration 0.044425
+learning_rate 0.000069
+timestep 3472000, total_error 0.001338
+timestep 3474000, total_error 0.001999
+timestep 3476000, total_error 0.004057
+timestep 3478000, total_error 0.009568
+timestep 3480000, total_error 0.000802
+Timestep 3480000
+Duration 1.375457
+mean reward (100 episodes) 19.140000
+best mean reward 19.140000
+episodes 1697
+exploration 0.044200
+learning_rate 0.000069
+timestep 3482000, total_error 0.004106
+timestep 3484000, total_error 0.000944
+timestep 3486000, total_error 0.001479
+timestep 3488000, total_error 0.004649
+timestep 3490000, total_error 0.001301
+updated target network
+Timestep 3490000
+Duration 1.371900
+mean reward (100 episodes) 19.230000
+best mean reward 19.230000
+episodes 1703
+exploration 0.043975
+learning_rate 0.000069
+timestep 3492000, total_error 0.002593
+timestep 3494000, total_error 0.005760
+timestep 3496000, total_error 0.023914
+timestep 3498000, total_error 0.001187
+timestep 3500000, total_error 0.001097
+Timestep 3500000
+Duration 1.372491
+mean reward (100 episodes) 19.340000
+best mean reward 19.340000
+episodes 1708
+exploration 0.043750
+learning_rate 0.000069
+saved snapshot: atari-3500000
+timestep 3502000, total_error 0.001157
+timestep 3504000, total_error 0.001724
+timestep 3506000, total_error 0.001447
+timestep 3508000, total_error 0.004323
+timestep 3510000, total_error 0.001504
+Timestep 3510000
+Duration 1.376174
+mean reward (100 episodes) 19.430000
+best mean reward 19.430000
+episodes 1714
+exploration 0.043525
+learning_rate 0.000069
+timestep 3512000, total_error 0.001540
+timestep 3514000, total_error 0.000752
+timestep 3516000, total_error 0.000918
+timestep 3518000, total_error 0.001049
+timestep 3520000, total_error 0.001343
+Timestep 3520000
+Duration 1.371603
+mean reward (100 episodes) 19.490000
+best mean reward 19.490000
+episodes 1719
+exploration 0.043300
+learning_rate 0.000069
+timestep 3522000, total_error 0.000578
+timestep 3524000, total_error 0.000764
+timestep 3526000, total_error 0.002280
+timestep 3528000, total_error 0.002603
+timestep 3530000, total_error 0.002364
+updated target network
+Timestep 3530000
+Duration 1.372767
+mean reward (100 episodes) 19.510000
+best mean reward 19.530000
+episodes 1724
+exploration 0.043075
+learning_rate 0.000068
+timestep 3532000, total_error 0.001335
+timestep 3534000, total_error 0.004653
+timestep 3536000, total_error 0.002552
+timestep 3538000, total_error 0.001846
+timestep 3540000, total_error 0.001102
+Timestep 3540000
+Duration 1.373636
+mean reward (100 episodes) 19.510000
+best mean reward 19.530000
+episodes 1730
+exploration 0.042850
+learning_rate 0.000068
+timestep 3542000, total_error 0.001481
+timestep 3544000, total_error 0.004189
+timestep 3546000, total_error 0.000581
+timestep 3548000, total_error 0.001414
+timestep 3550000, total_error 0.002036
+Timestep 3550000
+Duration 1.372183
+mean reward (100 episodes) 19.550000
+best mean reward 19.550000
+episodes 1736
+exploration 0.042625
+learning_rate 0.000068
+timestep 3552000, total_error 0.001315
+timestep 3554000, total_error 0.004525
+timestep 3556000, total_error 0.002744
+timestep 3558000, total_error 0.004269
+timestep 3560000, total_error 0.003945
+Timestep 3560000
+Duration 1.373817
+mean reward (100 episodes) 19.620000
+best mean reward 19.620000
+episodes 1741
+exploration 0.042400
+learning_rate 0.000068
+timestep 3562000, total_error 0.001153
+timestep 3564000, total_error 0.001730
+timestep 3566000, total_error 0.000861
+timestep 3568000, total_error 0.001730
+timestep 3570000, total_error 0.000361
+updated target network
+Timestep 3570000
+Duration 1.373451
+mean reward (100 episodes) 19.610000
+best mean reward 19.620000
+episodes 1747
+exploration 0.042175
+learning_rate 0.000068
+timestep 3572000, total_error 0.015371
+timestep 3574000, total_error 0.000895
+timestep 3576000, total_error 0.001156
+timestep 3578000, total_error 0.002418
+timestep 3580000, total_error 0.001098
+Timestep 3580000
+Duration 1.373393
+mean reward (100 episodes) 19.600000
+best mean reward 19.630000
+episodes 1753
+exploration 0.041950
+learning_rate 0.000068
+timestep 3582000, total_error 0.000722
+timestep 3584000, total_error 0.001038
+timestep 3586000, total_error 0.001353
+timestep 3588000, total_error 0.015312
+timestep 3590000, total_error 0.001638
+Timestep 3590000
+Duration 1.372301
+mean reward (100 episodes) 19.590000
+best mean reward 19.630000
+episodes 1758
+exploration 0.041725
+learning_rate 0.000068
+timestep 3592000, total_error 0.000639
+timestep 3594000, total_error 0.001452
+timestep 3596000, total_error 0.000367
+timestep 3598000, total_error 0.001469
+timestep 3600000, total_error 0.001035
+Timestep 3600000
+Duration 1.372379
+mean reward (100 episodes) 19.630000
+best mean reward 19.630000
+episodes 1764
+exploration 0.041500
+learning_rate 0.000068
+saved snapshot: atari-3600000
+timestep 3602000, total_error 0.000823
+timestep 3604000, total_error 0.001213
+timestep 3606000, total_error 0.001441
+timestep 3608000, total_error 0.003608
+timestep 3610000, total_error 0.001072
+updated target network
+Timestep 3610000
+Duration 1.377074
+mean reward (100 episodes) 19.630000
+best mean reward 19.640000
+episodes 1769
+exploration 0.041275
+learning_rate 0.000067
+timestep 3612000, total_error 0.001586
+timestep 3614000, total_error 0.001052
+timestep 3616000, total_error 0.002451
+timestep 3618000, total_error 0.001122
+timestep 3620000, total_error 0.003946
+Timestep 3620000
+Duration 1.373410
+mean reward (100 episodes) 19.450000
+best mean reward 19.640000
+episodes 1774
+exploration 0.041050
+learning_rate 0.000067
+timestep 3622000, total_error 0.001772
+timestep 3624000, total_error 0.003024
+timestep 3626000, total_error 0.002093
+timestep 3628000, total_error 0.002019
+timestep 3630000, total_error 0.001021
+Timestep 3630000
+Duration 1.374598
+mean reward (100 episodes) 19.430000
+best mean reward 19.640000
+episodes 1779
+exploration 0.040825
+learning_rate 0.000067
+timestep 3632000, total_error 0.002895
+timestep 3634000, total_error 0.000516
+timestep 3636000, total_error 0.003531
+timestep 3638000, total_error 0.000961
+timestep 3640000, total_error 0.000509
+Timestep 3640000
+Duration 1.374410
+mean reward (100 episodes) 19.500000
+best mean reward 19.640000
+episodes 1785
+exploration 0.040600
+learning_rate 0.000067
+timestep 3642000, total_error 0.001061
+timestep 3644000, total_error 0.000810
+timestep 3646000, total_error 0.000580
+timestep 3648000, total_error 0.001842
+timestep 3650000, total_error 0.000917
+updated target network
+Timestep 3650000
+Duration 1.373169
+mean reward (100 episodes) 19.460000
+best mean reward 19.640000
+episodes 1791
+exploration 0.040375
+learning_rate 0.000067
+timestep 3652000, total_error 0.001742
+timestep 3654000, total_error 0.001648
+timestep 3656000, total_error 0.001718
+timestep 3658000, total_error 0.001813
+timestep 3660000, total_error 0.000919
+Timestep 3660000
+Duration 1.372977
+mean reward (100 episodes) 19.480000
+best mean reward 19.640000
+episodes 1796
+exploration 0.040150
+learning_rate 0.000067
+timestep 3662000, total_error 0.003243
+timestep 3664000, total_error 0.000824
+timestep 3666000, total_error 0.001040
+timestep 3668000, total_error 0.000302
+timestep 3670000, total_error 0.001118
+Timestep 3670000
+Duration 1.373564
+mean reward (100 episodes) 19.500000
+best mean reward 19.640000
+episodes 1802
+exploration 0.039925
+learning_rate 0.000067
+timestep 3672000, total_error 0.000717
+timestep 3674000, total_error 0.000295
+timestep 3676000, total_error 0.008523
+timestep 3678000, total_error 0.001683
+timestep 3680000, total_error 0.000755
+Timestep 3680000
+Duration 1.373562
+mean reward (100 episodes) 19.470000
+best mean reward 19.640000
+episodes 1807
+exploration 0.039700
+learning_rate 0.000067
+timestep 3682000, total_error 0.000610
+timestep 3684000, total_error 0.000724
+timestep 3686000, total_error 0.000577
+timestep 3688000, total_error 0.002274
+timestep 3690000, total_error 0.000607
+updated target network
+Timestep 3690000
+Duration 1.373227
+mean reward (100 episodes) 19.530000
+best mean reward 19.640000
+episodes 1812
+exploration 0.039475
+learning_rate 0.000066
+timestep 3692000, total_error 0.000959
+timestep 3694000, total_error 0.006486
+timestep 3696000, total_error 0.003447
+timestep 3698000, total_error 0.004066
+timestep 3700000, total_error 0.015616
+Timestep 3700000
+Duration 1.374560
+mean reward (100 episodes) 19.450000
+best mean reward 19.640000
+episodes 1817
+exploration 0.039250
+learning_rate 0.000066
+saved snapshot: atari-3700000
+timestep 3702000, total_error 0.000584
+timestep 3704000, total_error 0.001953
+timestep 3706000, total_error 0.005081
+timestep 3708000, total_error 0.006291
+timestep 3710000, total_error 0.003862
+Timestep 3710000
+Duration 1.376594
+mean reward (100 episodes) 19.400000
+best mean reward 19.640000
+episodes 1822
+exploration 0.039025
+learning_rate 0.000066
+timestep 3712000, total_error 0.001204
+timestep 3714000, total_error 0.003476
+timestep 3716000, total_error 0.002865
+timestep 3718000, total_error 0.001435
+timestep 3720000, total_error 0.005178
+Timestep 3720000
+Duration 1.374379
+mean reward (100 episodes) 19.400000
+best mean reward 19.640000
+episodes 1827
+exploration 0.038800
+learning_rate 0.000066
+timestep 3722000, total_error 0.000770
+timestep 3724000, total_error 0.001540
+timestep 3726000, total_error 0.011079
+timestep 3728000, total_error 0.003463
+timestep 3730000, total_error 0.001632
+updated target network
+Timestep 3730000
+Duration 1.373918
+mean reward (100 episodes) 19.400000
+best mean reward 19.640000
+episodes 1833
+exploration 0.038575
+learning_rate 0.000066
+timestep 3732000, total_error 0.009617
+timestep 3734000, total_error 0.001643
+timestep 3736000, total_error 0.000911
+timestep 3738000, total_error 0.001286
+timestep 3740000, total_error 0.002946
+Timestep 3740000
+Duration 1.373337
+mean reward (100 episodes) 19.360000
+best mean reward 19.640000
+episodes 1838
+exploration 0.038350
+learning_rate 0.000066
+timestep 3742000, total_error 0.001589
+timestep 3744000, total_error 0.000533
+timestep 3746000, total_error 0.004619
+timestep 3748000, total_error 0.001771
+timestep 3750000, total_error 0.001645
+Timestep 3750000
+Duration 1.374361
+mean reward (100 episodes) 19.380000
+best mean reward 19.640000
+episodes 1844
+exploration 0.038125
+learning_rate 0.000066
+timestep 3752000, total_error 0.001342
+timestep 3754000, total_error 0.000590
+timestep 3756000, total_error 0.014620
+timestep 3758000, total_error 0.001300
+timestep 3760000, total_error 0.000816
+Timestep 3760000
+Duration 1.373965
+mean reward (100 episodes) 19.340000
+best mean reward 19.640000
+episodes 1849
+exploration 0.037900
+learning_rate 0.000066
+timestep 3762000, total_error 0.000711
+timestep 3764000, total_error 0.013293
+timestep 3766000, total_error 0.000539
+timestep 3768000, total_error 0.001710
+timestep 3770000, total_error 0.000884
+updated target network
+Timestep 3770000
+Duration 1.374041
+mean reward (100 episodes) 19.390000
+best mean reward 19.640000
+episodes 1855
+exploration 0.037675
+learning_rate 0.000065
+timestep 3772000, total_error 0.001572
+timestep 3774000, total_error 0.002132
+timestep 3776000, total_error 0.010942
+timestep 3778000, total_error 0.000956
+timestep 3780000, total_error 0.001415
+Timestep 3780000
+Duration 1.374450
+mean reward (100 episodes) 19.380000
+best mean reward 19.640000
+episodes 1860
+exploration 0.037450
+learning_rate 0.000065
+timestep 3782000, total_error 0.000597
+timestep 3784000, total_error 0.000524
+timestep 3786000, total_error 0.000414
+timestep 3788000, total_error 0.003897
+timestep 3790000, total_error 0.016481
+Timestep 3790000
+Duration 1.374426
+mean reward (100 episodes) 19.400000
+best mean reward 19.640000
+episodes 1866
+exploration 0.037225
+learning_rate 0.000065
+timestep 3792000, total_error 0.000375
+timestep 3794000, total_error 0.000865
+timestep 3796000, total_error 0.000888
+timestep 3798000, total_error 0.000353
+timestep 3800000, total_error 0.000623
+Timestep 3800000
+Duration 1.374270
+mean reward (100 episodes) 19.390000
+best mean reward 19.640000
+episodes 1871
+exploration 0.037000
+learning_rate 0.000065
+saved snapshot: atari-3800000
+timestep 3802000, total_error 0.000559
+timestep 3804000, total_error 0.000913
+timestep 3806000, total_error 0.000407
+timestep 3808000, total_error 0.001215
+timestep 3810000, total_error 0.002182
+updated target network
+Timestep 3810000
+Duration 1.378915
+mean reward (100 episodes) 19.570000
+best mean reward 19.640000
+episodes 1877
+exploration 0.036775
+learning_rate 0.000065
+timestep 3812000, total_error 0.002744
+timestep 3814000, total_error 0.000813
+timestep 3816000, total_error 0.000807
+timestep 3818000, total_error 0.000616
+timestep 3820000, total_error 0.001547
+Timestep 3820000
+Duration 1.374528
+mean reward (100 episodes) 19.590000
+best mean reward 19.640000
+episodes 1882
+exploration 0.036550
+learning_rate 0.000065
+timestep 3822000, total_error 0.001605
+timestep 3824000, total_error 0.001657
+timestep 3826000, total_error 0.000839
+timestep 3828000, total_error 0.001104
+timestep 3830000, total_error 0.000518
+Timestep 3830000
+Duration 1.374621
+mean reward (100 episodes) 19.580000
+best mean reward 19.640000
+episodes 1888
+exploration 0.036325
+learning_rate 0.000065
+timestep 3832000, total_error 0.000415
+timestep 3834000, total_error 0.004248
+timestep 3836000, total_error 0.002420
+timestep 3838000, total_error 0.001412
+timestep 3840000, total_error 0.002581
+Timestep 3840000
+Duration 1.372678
+mean reward (100 episodes) 19.560000
+best mean reward 19.640000
+episodes 1893
+exploration 0.036100
+learning_rate 0.000064
+timestep 3842000, total_error 0.000379
+timestep 3844000, total_error 0.004020
+timestep 3846000, total_error 0.000697
+timestep 3848000, total_error 0.006715
+timestep 3850000, total_error 0.006893
+updated target network
+Timestep 3850000
+Duration 1.370269
+mean reward (100 episodes) 19.540000
+best mean reward 19.640000
+episodes 1899
+exploration 0.035875
+learning_rate 0.000064
+timestep 3852000, total_error 0.001841
+timestep 3854000, total_error 0.000886
+timestep 3856000, total_error 0.001373
+timestep 3858000, total_error 0.000586
+timestep 3860000, total_error 0.001164
+Timestep 3860000
+Duration 1.369870
+mean reward (100 episodes) 19.580000
+best mean reward 19.640000
+episodes 1905
+exploration 0.035650
+learning_rate 0.000064
+timestep 3862000, total_error 0.000666
+timestep 3864000, total_error 0.002136
+timestep 3866000, total_error 0.003521
+timestep 3868000, total_error 0.000956
+timestep 3870000, total_error 0.001396
+Timestep 3870000
+Duration 1.370743
+mean reward (100 episodes) 19.570000
+best mean reward 19.640000
+episodes 1910
+exploration 0.035425
+learning_rate 0.000064
+timestep 3872000, total_error 0.000932
+timestep 3874000, total_error 0.001251
+timestep 3876000, total_error 0.001053
+timestep 3878000, total_error 0.000975
+timestep 3880000, total_error 0.016245
+Timestep 3880000
+Duration 1.371035
+mean reward (100 episodes) 19.670000
+best mean reward 19.670000
+episodes 1916
+exploration 0.035200
+learning_rate 0.000064
+timestep 3882000, total_error 0.000955
+timestep 3884000, total_error 0.012796
+timestep 3886000, total_error 0.000385
+timestep 3888000, total_error 0.000436
+timestep 3890000, total_error 0.001531
+updated target network
+Timestep 3890000
+Duration 1.375734
+mean reward (100 episodes) 19.760000
+best mean reward 19.760000
+episodes 1922
+exploration 0.034975
+learning_rate 0.000064
+timestep 3892000, total_error 0.002468
+timestep 3894000, total_error 0.001388
+timestep 3896000, total_error 0.004868
+timestep 3898000, total_error 0.001063
+timestep 3900000, total_error 0.003295
+Timestep 3900000
+Duration 1.373392
+mean reward (100 episodes) 19.790000
+best mean reward 19.800000
+episodes 1928
+exploration 0.034750
+learning_rate 0.000064
+saved snapshot: atari-3900000
+timestep 3902000, total_error 0.000971
+timestep 3904000, total_error 0.001131
+timestep 3906000, total_error 0.001026
+timestep 3908000, total_error 0.000762
+timestep 3910000, total_error 0.000228
+Timestep 3910000
+Duration 1.375639
+mean reward (100 episodes) 19.860000
+best mean reward 19.860000
+episodes 1933
+exploration 0.034525
+learning_rate 0.000064
+timestep 3912000, total_error 0.001036
+timestep 3914000, total_error 0.000272
+timestep 3916000, total_error 0.000545
+timestep 3918000, total_error 0.001419
+timestep 3920000, total_error 0.001437
+Timestep 3920000
+Duration 1.370262
+mean reward (100 episodes) 19.880000
+best mean reward 19.890000
+episodes 1939
+exploration 0.034300
+learning_rate 0.000063
+timestep 3922000, total_error 0.001326
+timestep 3924000, total_error 0.001962
+timestep 3926000, total_error 0.001170
+timestep 3928000, total_error 0.000963
+timestep 3930000, total_error 0.000545
+updated target network
+Timestep 3930000
+Duration 1.372917
+mean reward (100 episodes) 19.940000
+best mean reward 19.940000
+episodes 1945
+exploration 0.034075
+learning_rate 0.000063
+timestep 3932000, total_error 0.001114
+timestep 3934000, total_error 0.001121
+timestep 3936000, total_error 0.002499
+timestep 3938000, total_error 0.000564
+timestep 3940000, total_error 0.001362
+Timestep 3940000
+Duration 1.371966
+mean reward (100 episodes) 19.960000
+best mean reward 19.970000
+episodes 1950
+exploration 0.033850
+learning_rate 0.000063
+timestep 3942000, total_error 0.000675
+timestep 3944000, total_error 0.001847
+timestep 3946000, total_error 0.001091
+timestep 3948000, total_error 0.000301
+timestep 3950000, total_error 0.000224
+Timestep 3950000
+Duration 1.371596
+mean reward (100 episodes) 19.930000
+best mean reward 19.970000
+episodes 1956
+exploration 0.033625
+learning_rate 0.000063
+timestep 3952000, total_error 0.000342
+timestep 3954000, total_error 0.000616
+timestep 3956000, total_error 0.008118
+timestep 3958000, total_error 0.000605
+timestep 3960000, total_error 0.000997
+Timestep 3960000
+Duration 1.372320
+mean reward (100 episodes) 19.970000
+best mean reward 19.980000
+episodes 1962
+exploration 0.033400
+learning_rate 0.000063
+timestep 3962000, total_error 0.000687
+timestep 3964000, total_error 0.000268
+timestep 3966000, total_error 0.000649
+timestep 3968000, total_error 0.001860
+timestep 3970000, total_error 0.000900
+updated target network
+Timestep 3970000
+Duration 1.371226
+mean reward (100 episodes) 19.980000
+best mean reward 19.980000
+episodes 1967
+exploration 0.033175
+learning_rate 0.000063
+timestep 3972000, total_error 0.001150
+timestep 3974000, total_error 0.000417
+timestep 3976000, total_error 0.001892
+timestep 3978000, total_error 0.001654
+timestep 3980000, total_error 0.002015
+Timestep 3980000
+Duration 1.370952
+mean reward (100 episodes) 19.970000
+best mean reward 20.000000
+episodes 1973
+exploration 0.032950
+learning_rate 0.000063
+timestep 3982000, total_error 0.000337
+timestep 3984000, total_error 0.005534
+timestep 3986000, total_error 0.001089
+timestep 3988000, total_error 0.000387
+timestep 3990000, total_error 0.000423
+Timestep 3990000
+Duration 1.371339
+mean reward (100 episodes) 19.990000
+best mean reward 20.000000
+episodes 1979
+exploration 0.032725
+learning_rate 0.000063
+timestep 3992000, total_error 0.000488
+timestep 3994000, total_error 0.000494
+timestep 3996000, total_error 0.001289
+timestep 3998000, total_error 0.000892
+timestep 4000000, total_error 0.000311
+Timestep 4000000
+Duration 1.370754
+mean reward (100 episodes) 19.930000
+best mean reward 20.000000
+episodes 1984
+exploration 0.032500
+learning_rate 0.000063
+saved snapshot: atari-4000000
+timestep 4002000, total_error 0.000430
+timestep 4004000, total_error 0.000793
+timestep 4006000, total_error 0.000539
+timestep 4008000, total_error 0.000518
+timestep 4010000, total_error 0.000491
+updated target network
+Timestep 4010000
+Duration 1.373079
+mean reward (100 episodes) 19.890000
+best mean reward 20.000000
+episodes 1990
+exploration 0.032275
+learning_rate 0.000062
+timestep 4012000, total_error 0.001407
+timestep 4014000, total_error 0.001426
+timestep 4016000, total_error 0.001068
+timestep 4018000, total_error 0.001063
+timestep 4020000, total_error 0.000999
+Timestep 4020000
+Duration 1.371201
+mean reward (100 episodes) 19.970000
+best mean reward 20.000000
+episodes 1995
+exploration 0.032050
+learning_rate 0.000062
+timestep 4022000, total_error 0.002259
+timestep 4024000, total_error 0.000378
+timestep 4026000, total_error 0.000776
+timestep 4028000, total_error 0.000487
+timestep 4030000, total_error 0.000680
+Timestep 4030000
+Duration 1.423190
+mean reward (100 episodes) 19.970000
+best mean reward 20.000000
+episodes 2001
+exploration 0.031825
+learning_rate 0.000062
+timestep 4032000, total_error 0.000484
+timestep 4034000, total_error 0.000773
+timestep 4036000, total_error 0.000747
+timestep 4038000, total_error 0.001088
+timestep 4040000, total_error 0.002035
+Timestep 4040000
+Duration 1.374092
+mean reward (100 episodes) 19.980000
+best mean reward 20.010000
+episodes 2007
+exploration 0.031600
+learning_rate 0.000062
+timestep 4042000, total_error 0.000701
+timestep 4044000, total_error 0.000565
+timestep 4046000, total_error 0.000513
+timestep 4048000, total_error 0.000219
+timestep 4050000, total_error 0.000206
+updated target network
+Timestep 4050000
+Duration 1.373373
+mean reward (100 episodes) 19.950000
+best mean reward 20.010000
+episodes 2013
+exploration 0.031375
+learning_rate 0.000062
+timestep 4052000, total_error 0.004537
+timestep 4054000, total_error 0.008931
+timestep 4056000, total_error 0.000573
+timestep 4058000, total_error 0.001450
+timestep 4060000, total_error 0.000712
+Timestep 4060000
+Duration 1.374610
+mean reward (100 episodes) 19.990000
+best mean reward 20.010000
+episodes 2018
+exploration 0.031150
+learning_rate 0.000062
+timestep 4062000, total_error 0.000665
+timestep 4064000, total_error 0.001018
+timestep 4066000, total_error 0.003045
+timestep 4068000, total_error 0.024108
+timestep 4070000, total_error 0.000261
+Timestep 4070000
+Duration 1.376149
+mean reward (100 episodes) 19.960000
+best mean reward 20.010000
+episodes 2024
+exploration 0.030925
+learning_rate 0.000062
+timestep 4072000, total_error 0.000590
+timestep 4074000, total_error 0.000335
+timestep 4076000, total_error 0.003744
+timestep 4078000, total_error 0.000550
+timestep 4080000, total_error 0.002397
+Timestep 4080000
+Duration 1.373681
+mean reward (100 episodes) 19.960000
+best mean reward 20.010000
+episodes 2030
+exploration 0.030700
+learning_rate 0.000062
+timestep 4082000, total_error 0.001198
+timestep 4084000, total_error 0.021138
+timestep 4086000, total_error 0.000312
+timestep 4088000, total_error 0.000231
+timestep 4090000, total_error 0.000506
+updated target network
+Timestep 4090000
+Duration 1.373107
+mean reward (100 episodes) 19.910000
+best mean reward 20.010000
+episodes 2035
+exploration 0.030475
+learning_rate 0.000061
+timestep 4092000, total_error 0.001621
+timestep 4094000, total_error 0.001633
+timestep 4096000, total_error 0.001284
+timestep 4098000, total_error 0.000828
+timestep 4100000, total_error 0.001004
+Timestep 4100000
+Duration 1.372997
+mean reward (100 episodes) 19.920000
+best mean reward 20.010000
+episodes 2041
+exploration 0.030250
+learning_rate 0.000061
+saved snapshot: atari-4100000
+timestep 4102000, total_error 0.000434
+timestep 4104000, total_error 0.000284
