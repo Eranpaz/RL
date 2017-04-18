@@ -1,5 +1,5 @@
-See http://rll.berkeley.edu/deeprlcourse/docs/hw3.pdf for instructions
+This is my code for training a DQN model to play Pong.
+I got similar results to what's reported in http://rll.berkeley.edu/deeprlcourse/docs/hw3.pdf but with more training steps.
 
-The starter code was based on an implementation of Q-learning for Atari
-generously provided by Szymon Sidor from OpenAI
-
+![Alt text](./Atari_score(screen).png?raw=true "Optional Title"
+![Alt text](./Atari_score(RAM).png?raw=true "Optional Title"
